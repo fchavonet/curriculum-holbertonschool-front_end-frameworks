@@ -16,7 +16,7 @@
     <script src="./script.js" defer></script>
 </head>
 
-<body class="bg-slate-950 text-slate-50 antialiased">
+<body id="top" class="bg-slate-950 text-slate-50 antialiased">
     <!-- HEADER -->
     <header class="fixed top-0 right-0 left-0 w-full border-b border-slate-800/80 bg-slate-950/80 backdrop-blur z-50">
         <!-- CONTAINER -->
@@ -48,13 +48,114 @@
                 </ul>
 
                 <!-- CALL TO ACTION LINK -->
-                <a class="px-4 py-2 font-semibold text-slate-50 rounded-md bg-violet-500 hover:bg-violet-600 shadow-lg shadow-violet-500/40" href="https://www.holbertonschool.fr/programme/bachelor-ai-augmented-software-engineering" target="_blank" rel="noopener noreferrer">Start learning</a>
+                <a class="px-4 py-2 font-semibold text-slate-50 rounded-md bg-violet-500 hover:bg-violet-600 shadow-lg shadow-violet-500/40" href="https://www.holbertonschool.fr/" target="_blank" rel="noopener noreferrer">Start learning</a>
             </nav>
         </div>
     </header>
 
     <main>
+        <!-- HERO SECTION -->
+        <section id="hero-section" class="relative pt-24 pb-12 flex flex-col justify-center items-center border-b border-slate-900 bg-slate-950 overflow-hidden">
+            <!-- BACKGROUND BASE -->
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_15%_10%,rgba(168,85,247,0.35),transparent_32%),radial-gradient(circle_at_85%_60%,rgba(59,130,246,0.25),transparent_28%),linear-gradient(135deg,#1e1238_0%,#0f172a_45%,#020617_100%)]"></div>
+            <!-- BACKGROUND GRID -->
+            <div class="absolute inset-0 bg-[linear-gradient(to_right,rgba(148,163,184,0.12)_1px,transparent_1px),linear-gradient(to_bottom,rgba(148,163,184,0.12)_1px,transparent_1px)] bg-[size:72px_72px] opacity-30"></div>
+            <!-- DARK BOTTOM FADE -->
+            <div class="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-b from-transparent to-black"></div>
+            <!-- SOFT NOISE / DEPTH -->
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,transparent_0%,rgba(2,6,23,0.45)_75%)]"></div>
 
+
+            <!-- CONTAINER -->
+            <div class="relative max-w-6xl min-h-[680px] mx-auto px-6 flex flex-col justify-center items-center gap-8 text-center">
+                <!-- EYEBROW -->
+                <p class="px-4 py-2 flex flex-row justify-center items-center gap-2 text-xs text-violet-300 rounded-full border border-violet-500/20 bg-violet-500/10">
+                    <span class="block mt-0.5 text-[8px]">✦</span>
+                    The future of coding
+                    <span class="block mt-0.5 text-[8px]">✦</span>
+                </p>
+
+                <!-- TITLE -->
+                <h1 class="text-5xl md:text-7xl font-black tracking-tight leading-none">
+                    Build smarter workflows
+
+                    <span class="block text-violet-300">
+                        with Agentic AI
+                    </span>
+                </h1>
+
+                <!-- TEXT -->
+                <p class="max-w-2xl text-sm md:text-base text-slate-300">
+                    Create autonomous AI agents that think, plan, and execute complex tasks. Transform your business with intelligent automation.
+                </p>
+
+                <!-- CTA -->
+                <div class="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <a class="px-4 py-2 font-semibold rounded-md bg-violet-500 hover:bg-violet-600 shadow-lg shadow-violet-500/30" href="https://www.holbertonschool.fr/" target="_blank" rel="noopener noreferrer">
+                        Start learning with Holberton School →
+                    </a>
+
+                    <a class="px-4 py-2 font-semibold rounded-md border border-slate-800 bg-slate-950 hover:bg-slate-900 shadow-lg shadow-slate-950/40" href="https://www.holbertonschool.fr/methodologie" target="_blank" rel="noopener noreferrer">
+                        Methodology
+                    </a>
+                </div>
+
+                <!-- STATISTICS -->
+                <div class="w-full max-w-4xl mt-8 grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div class="p-6 rounded-xl border border-slate-800 bg-slate-950 shadow-xl shadow-slate-950/40">
+                        <strong class="block text-4xl font-black text-violet-300">10K+</strong>
+                        <span class="block mt-1 text-xs">Active agents</span>
+                    </div>
+
+                    <div class="p-6 rounded-xl border border-slate-800 bg-slate-950 shadow-xl shadow-slate-950/40">
+                        <strong class="block text-4xl font-black text-violet-300">99.9%</strong>
+                        <span class="block mt-1 text-xs">Uptime</span>
+                    </div>
+
+                    <div class="p-6 rounded-xl border border-slate-800 bg-slate-950 shadow-xl shadow-slate-950/40">
+                        <strong class="block text-4xl font-black text-violet-300">50M+</strong>
+                        <span class="block mt-1 text-xs">Tasks automated</span>
+                    </div>
+
+                    <div class="p-6 rounded-xl border border-slate-800 bg-slate-950 shadow-xl shadow-slate-950/40">
+                        <strong class="block text-4xl font-black text-violet-300">24/7</strong>
+                        <span class="block mt-1 text-xs">Support</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about-section">
+            <!-- CONTAINER -->
+            <div class="relative max-w-6xl mx-auto px-6 flex flex-col justify-center items-center gap-8">
+
+            </div>
+        </section>
+
+        <!-- FEATURES SECTION -->
+        <section id="features-section">
+            <!-- CONTAINER -->
+            <div class="relative max-w-6xl mx-auto px-6 flex flex-col justify-center items-center gap-8">
+
+            </div>
+        </section>
+
+        <!-- INSIGHTS SECTION -->
+        <section id="insights-section">
+            <!-- CONTAINER -->
+            <div class="relative max-w-6xl mx-auto px-6 flex flex-col justify-center items-center gap-8">
+
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact-section">
+            <!-- CONTAINER -->
+            <div class="relative max-w-6xl mx-auto px-6 flex flex-col justify-center items-center gap-8">
+
+            </div>
+        </section>
     </main>
 
     <footer>
