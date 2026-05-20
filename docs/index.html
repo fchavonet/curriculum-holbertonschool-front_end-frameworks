@@ -104,37 +104,135 @@
                 <div class="w-full max-w-4xl mt-8 grid grid-cols-2 md:grid-cols-4 gap-8">
                     <div class="p-6 rounded-xl border border-slate-800 bg-slate-950 shadow-xl shadow-slate-950/40">
                         <strong class="block text-4xl font-black text-violet-300">10K+</strong>
-                        <span class="block mt-1 text-xs">Active agents</span>
+                        <span class="block mt-1 text-xs text-slate-500">Active agents</span>
                     </div>
 
                     <div class="p-6 rounded-xl border border-slate-800 bg-slate-950 shadow-xl shadow-slate-950/40">
                         <strong class="block text-4xl font-black text-violet-300">99.9%</strong>
-                        <span class="block mt-1 text-xs">Uptime</span>
+                        <span class="block mt-1 text-xs text-slate-500">Uptime</span>
                     </div>
 
                     <div class="p-6 rounded-xl border border-slate-800 bg-slate-950 shadow-xl shadow-slate-950/40">
                         <strong class="block text-4xl font-black text-violet-300">50M+</strong>
-                        <span class="block mt-1 text-xs">Tasks automated</span>
+                        <span class="block mt-1 text-xs text-slate-500">Tasks automated</span>
                     </div>
 
                     <div class="p-6 rounded-xl border border-slate-800 bg-slate-950 shadow-xl shadow-slate-950/40">
                         <strong class="block text-4xl font-black text-violet-300">24/7</strong>
-                        <span class="block mt-1 text-xs">Support</span>
+                        <span class="block mt-1 text-xs text-slate-500">Support</span>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- ABOUT SECTION -->
-        <section id="about-section">
+        <section id="about-section" class="relative py-24 flex flex-col justify-center items-center bg-black overflow-hidden">
             <!-- CONTAINER -->
-            <div class="relative max-w-6xl mx-auto px-6 flex flex-col justify-center items-center gap-8">
+            <div class="relative max-w-6xl mx-auto px-6 flex flex-col justify-center items-center gap-8 text-center">
+                <!-- EYEBROW -->
+                <p class="px-4 py-2 flex flex-row justify-center items-center gap-2 text-xs text-violet-300 rounded-full border border-violet-500/20 bg-violet-500/10">
+                    <span class="block mt-0.5 text-[8px]">✦</span>
+                    What is Agentic AI?
+                    <span class="block mt-0.5 text-[8px]">✦</span>
+                </p>
 
+                <!-- SUBTITLE -->
+                <h2 class="max-w-4xl text-4xl md:text-5xl font-black tracking-tight leading-none">
+                    AI that does more than answer.
+
+                    <span class="block text-violet-300">
+                        It acts with purpose.
+                    </span>
+                </h2>
+
+                <!-- TEXT -->
+                <p class="max-w-2xl text-sm md:text-base text-slate-300 text-start">
+                    Agentic AI refers to artificial intelligence systems designed to pursue goals, make decisions, use tools, and adapt their actions across multiple steps. Instead of only responding to a single prompt, an AI agent can break down a task, plan a strategy, execute actions, evaluate results, and continue until the objective is reached.
+                </p>
+
+                <!-- CONTENT GRID -->
+                <div class="mt-8 grid md:grid-cols-[1fr_1.2fr] justify-center items-center gap-8">
+                    <!-- COMPARISON BLOCK -->
+                    <div class="p-8 flex flex-col justify-center items-start gap-4 text-start rounded-3xl border border-slate-800 bg-slate-950 shadow-xl shadow-slate-950/40">
+                        <div>
+                            <h3 class="text-lg font-bold">Traditional AI</h3>
+
+                            <p class="mt-2 text-sm text-slate-500">
+                                Responds to direct instructions, generates content, answers questions, or analyzes information within a limited interaction.
+                            </p>
+                        </div>
+
+                        <div class="w-full h-px bg-slate-800"></div>
+
+                        <div>
+                            <h3 class="text-lg font-bold text-violet-500">Agentic AI</h3>
+
+                            <p class="mt-2 text-sm text-slate-500">
+                                Understands a goal, chooses actions, uses external tools, follows a plan, and adjusts its behavior based on feedback.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- PROCESS BLOCK -->
+                    <div class="relative mt-4">
+                        <div class="absolute left-4 top-4 bottom-4 w-px bg-gradient-to-b from-violet-500 to-transparent"></div>
+
+                        <div class="flex flex-col justify-center items-start gap-6">
+                            <div class="relative pl-12 flex flex-col justify-center items-start text-start">
+                                <div class="absolute left-0 top-1 w-8 h-8 flex flex-row justify-center items-center text-xs font-black rounded-full bg-violet-500 shadow-lg shadow-violet-500/40">
+                                    1
+                                </div>
+
+                                <h3 class="mt-2 font-bold">Understand the goal</h3>
+
+                                <p class="mt-1 text-sm text-slate-300">
+                                    The agent interprets the user’s objective and identifies what needs to be achieved.
+                                </p>
+                            </div>
+
+                            <div class="relative pl-12 flex flex-col justify-center items-start text-start">
+                                <div class="absolute left-0 top-0 w-8 h-8 flex flex-row justify-center items-center text-xs font-black rounded-full bg-violet-500 shadow-lg shadow-violet-500/40">
+                                    2
+                                </div>
+
+                                <h3 class="mt-1 font-bold">Plan the steps</h3>
+
+                                <p class="mt-1 text-sm text-slate-300">
+                                    It breaks the objective into smaller actions and selects the most relevant path.
+                                </p>
+                            </div>
+
+                            <div class="relative pl-12 flex flex-col justify-center items-start text-start">
+                                <div class="absolute left-0 top-0 w-8 h-8 flex flex-row justify-center items-center text-xs font-black rounded-full bg-violet-500 shadow-lg shadow-violet-500/40">
+                                    3
+                                </div>
+
+                                <h3 class="mt-1 font-bold">Use tools and data</h3>
+
+                                <p class="mt-1 text-sm text-slate-300">
+                                    It can interact with APIs, databases, files, interfaces, or other services to complete tasks.
+                                </p>
+                            </div>
+
+                            <div class="relative pl-12 flex flex-col justify-center items-start text-start">
+                                <div class="absolute left-0 top-0 w-8 h-8 flex flex-row justify-center items-center text-xs font-black rounded-full bg-violet-500 shadow-lg shadow-violet-500/40">
+                                    4
+                                </div>
+
+                                <h3 class="mt-1 font-bold">Evaluate and adapt</h3>
+
+                                <p class="mt-1 text-sm text-slate-300">
+                                    It checks results, corrects mistakes, and adjusts the next action when needed.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- FEATURES SECTION -->
-        <section id="features-section">
+        <section id="features-section" class="relative py-24 flex flex-col justify-center items-center bg-black overflow-hidden">
             <!-- CONTAINER -->
             <div class="relative max-w-6xl mx-auto px-6 flex flex-col justify-center items-center gap-8">
 
@@ -142,7 +240,7 @@
         </section>
 
         <!-- INSIGHTS SECTION -->
-        <section id="insights-section">
+        <section id="insights-section" class="relative py-24 flex flex-col justify-center items-center bg-black overflow-hidden">
             <!-- CONTAINER -->
             <div class="relative max-w-6xl mx-auto px-6 flex flex-col justify-center items-center gap-8">
 
