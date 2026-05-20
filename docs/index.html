@@ -21,7 +21,7 @@
 
 <body id="top" class="bg-slate-950 text-slate-50 antialiased">
     <!-- HEADER -->
-    <header class="fixed top-0 right-0 left-0 w-full border-b border-slate-800/80 bg-slate-950/80 backdrop-blur z-50">
+    <header class="fixed top-0 right-0 left-0 w-full border-b border-slate-900 bg-slate-950/80 backdrop-blur z-50">
         <!-- CONTAINER -->
         <div class="max-w-6xl mx-auto h-14 px-6 flex justify-between items-center">
             <!-- BRAND -->
@@ -54,7 +54,7 @@
                 </ul>
 
                 <!-- CALL TO ACTION LINK -->
-                <a class="px-4 py-2 font-semibold text-slate-50 rounded-md bg-violet-500 hover:bg-violet-600 shadow-lg shadow-violet-500/40" href="https://www.holbertonschool.fr/" target="_blank" rel="noopener noreferrer">Start learning</a>
+                <a class="px-4 py-2 font-semibold text-slate-50 rounded-md bg-violet-500 hover:bg-violet-600 shadow-lg shadow-violet-500/40" href="https://www.holbertonschool.fr/rejoindre-lhippocamp" target="_blank" rel="noopener noreferrer">Enroll now</a>
             </nav>
         </div>
     </header>
@@ -361,7 +361,95 @@
 
         <!-- CONTACT SECTION -->
         <section id="contact-section" class="scroll-mt-24 relative py-24 flex flex-col justify-center items-center border-b border-slate-900 overflow-hidden">
+            <!-- BACKGROUND BASE -->
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_15%_10%,rgba(168,85,247,0.35),transparent_32%),radial-gradient(circle_at_85%_60%,rgba(59,130,246,0.25),transparent_28%),linear-gradient(135deg,#1e1238_0%,#0f172a_45%,#020617_100%)]"></div>
+            <!-- BACKGROUND GRID -->
+            <div class="absolute inset-0 bg-[linear-gradient(to_right,rgba(148,163,184,0.12)_1px,transparent_1px),linear-gradient(to_bottom,rgba(148,163,184,0.12)_1px,transparent_1px)] bg-[size:72px_72px] opacity-30"></div>
+            <!-- DARK BOTTOM FADE -->
+            <div class="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-b from-transparent to-black"></div>
+            <!-- SOFT NOISE / DEPTH -->
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,transparent_0%,rgba(2,6,23,0.45)_75%)]"></div>
 
+
+            <!-- CONTAINER -->
+            <div class="relative w-full max-w-6xl mx-auto px-6 flex flex-col justify-center items-center gap-8 text-center">
+                <!-- EYEBROW -->
+                <p class="px-4 py-2 flex flex-row justify-center items-center gap-2 text-xs text-violet-300 rounded-full border border-violet-500/20 bg-violet-500/10">
+                    <span class="block text-[8px]">✦</span>
+                    Start your AI journey
+                    <span class="block text-[8px]">✦</span>
+                </p>
+
+                <!-- SUBTITLE -->
+                <h2 class="max-w-4xl text-5xl md:text-7xl font-black tracking-tight leading-none">
+                    Ready to Explore
+
+                    <span class="block text-violet-300">
+                        Agentic AI?
+                    </span>
+                </h2>
+
+                <!-- CTA -->
+                <div class="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <a class="px-4 py-2 font-semibold rounded-md bg-violet-500 hover:bg-violet-600 shadow-lg shadow-violet-500/30" href="https://www.holbertonschool.fr/rejoindre-lhippocamp" target="_blank" rel="noopener noreferrer">
+                        Enroll at Holberton School →
+                    </a>
+
+                    <a class="px-4 py-2 font-semibold rounded-md border border-slate-800 bg-slate-950 hover:bg-slate-900 shadow-lg shadow-slate-950/40" href="https://www.holbertonschool.fr/admission" target="_blank" rel="noopener noreferrer">
+                        Need more information?
+                    </a>
+                </div>
+
+                <!-- BENEFITS -->
+                <div class="flex flex-wrap justify-center items-center gap-8 text-sm text-slate-400">
+                    <span class="flex justify-center items-center gap-2">
+                        <i class="w-4 h-4 text-violet-300" data-lucide="folder-code"></i>
+                        Project-based learning
+                    </span>
+
+                    <span class="flex justify-center items-center gap-2">
+                        <i class="w-4 h-4 text-violet-300" data-lucide="users"></i>
+                        Peer learning environment
+                    </span>
+
+                    <span class="flex justify-center items-center gap-2">
+                        <i class="w-4 h-4 text-violet-300" data-lucide="sparkles"></i>
+                        AI-powered workflows
+                    </span>
+                </div>
+
+                <!-- CONTACT FORM -->
+                <form id="contact-form" class="w-full max-w-2xl mt-8 p-8 flex flex-col justify-center items-center gap-8 text-start rounded-3xl border border-slate-800 bg-slate-950/80 backdrop-blur shadow-2xl shadow-slate-950/40">
+                    <!-- NAME -->
+                    <div class="w-full flex flex-col gap-2">
+                        <label class="ms-4 text-sm font-semibold" for="name">
+                            Full name
+                        </label>
+
+                        <input id="name" class="px-4 py-2 text-sm text-slate-50 placeholder:text-slate-500 rounded-md border border-slate-800 focus:outline-none focus:border-violet-500 bg-black shadow-xl shadow-slate-950/40 transition" name="name" type="text" placeholder="Your full name..." required>
+                    </div>
+
+                    <!-- EMAIL -->
+                    <div class="w-full flex flex-col gap-2">
+                        <label class="ms-4 text-sm font-semibold" for="email">
+                            Email
+                        </label>
+
+                        <input id="email" class="px-4 py-2 text-sm text-slate-50 placeholder:text-slate-500 rounded-md border border-slate-800 focus:outline-none focus:border-violet-500 bg-black shadow-xl shadow-slate-950/40 transition" name="email" type="email" placeholder="you@example.com" required>
+                    </div>
+
+                    <!-- MESSAGE -->
+                    <div class="w-full flex flex-col gap-2">
+                        <label class="ms-4 text-sm font-semibold" for="message">Message</label>
+
+                        <textarea id="message" class="min-h-32 px-4 py-2 text-sm text-slate-50 placeholder:text-slate-500 rounded-md border border-slate-800 focus:outline-none focus:border-violet-500 bg-black shadow-xl shadow-slate-950/40 transition resize-none" name="message" placeholder="Tell us about your project or learning goals!" required></textarea>
+                    </div>
+
+                    <button class="w-full px-4 py-2 font-semibold text-slate-50 rounded-md bg-violet-500 hover:bg-violet-600 shadow-lg shadow-violet-500/40 cursor-pointer" type="submit">
+                        Send message
+                    </button>
+                </form>
+            </div>
         </section>
     </main>
 
