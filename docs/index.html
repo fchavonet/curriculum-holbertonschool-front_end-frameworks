@@ -9,6 +9,9 @@
     <meta name="description" content="Explore the future of development with Agentic AI.">
     <meta name="robots" content="index, follow">
 
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
     <!-- LUCIDE-->
     <script src="https://unpkg.com/lucide@latest"></script>
 
@@ -370,7 +373,6 @@
             <!-- SOFT NOISE / DEPTH -->
             <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,transparent_0%,rgba(2,6,23,0.45)_75%)]"></div>
 
-
             <!-- CONTAINER -->
             <div class="relative w-full max-w-6xl mx-auto px-6 flex flex-col justify-center items-center gap-8 text-center">
                 <!-- EYEBROW -->
@@ -401,19 +403,19 @@
                 </div>
 
                 <!-- BENEFITS -->
-                <div class="flex flex-wrap justify-center items-center gap-8 text-sm text-slate-400">
+                <div class="flex flex-wrap justify-center items-center gap-8 text-sm text-slate-500">
                     <span class="flex justify-center items-center gap-2">
-                        <i class="w-4 h-4 text-violet-300" data-lucide="folder-code"></i>
+                        <i class="w-4 h-4 text-violet-500" data-lucide="folder-code"></i>
                         Project-based learning
                     </span>
 
                     <span class="flex justify-center items-center gap-2">
-                        <i class="w-4 h-4 text-violet-300" data-lucide="users"></i>
+                        <i class="w-4 h-4 text-violet-500" data-lucide="users"></i>
                         Peer learning environment
                     </span>
 
                     <span class="flex justify-center items-center gap-2">
-                        <i class="w-4 h-4 text-violet-300" data-lucide="sparkles"></i>
+                        <i class="w-4 h-4 text-violet-500" data-lucide="sparkles"></i>
                         AI-powered workflows
                     </span>
                 </div>
@@ -453,8 +455,67 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="bg-black px-6">
+        <!-- CONTAINER -->
+        <div class="max-w-6xl mx-auto pt-24 pb-12 grid md:grid-cols-5 gap-8">
+            <div class="md:col-span-2 flex flex-col justify-start items-start gap-4">
+                <a class="flex flex-row justify-start items-center gap-2" href="#top">
+                    <div class="w-7 h-7 flex flex-row justify-center items-center text-xs font-black rounded-lg bg-violet-500 shadow-lg shadow-violet-500/40">
+                        <i class="w-4 h-4" data-lucide="brain-circuit"></i>
+                    </div>
 
+                    <span class="text-sm font-bold">Agentic AI</span>
+                </a>
+
+                <p class="text-xs text-slate-500">
+                    Explore the future of development with Agentic AI.
+                </p>
+
+                <div class="flex flex-row justify-start items-center gap-2">
+                    <a class="w-8 h-8 flex flex-row justify-center items-center rounded-md border border-slate-800 bg-slate-950 hover:bg-violet-500 shadow-xl shadow-slate-950/40 hover:shadow-violet-500/40" href="https://www.instagram.com/holbertonfrance/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a class="w-8 h-8 flex flex-row justify-center items-center rounded-md border border-slate-800 bg-slate-950 hover:bg-violet-500 shadow-xl shadow-slate-950/40 hover:shadow-violet-500/40" href="https://www.tiktok.com/@holbertonfrance" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                    <a class="w-8 h-8 flex flex-row justify-center items-center rounded-md border border-slate-800 bg-slate-950 hover:bg-violet-500 shadow-xl shadow-slate-950/40 hover:shadow-violet-500/40" href="https://x.com/HolbertonFRA" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+                    <a class="w-8 h-8 flex flex-row justify-center items-center rounded-md border border-slate-800 bg-slate-950 hover:bg-violet-500 shadow-xl shadow-slate-950/40 hover:shadow-violet-500/40" href="https://www.youtube.com/@HolbertonFrance" target="_blank" rel="noopener noreferrer" aria-label="Youtube"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="mb-4 text-sm font-bold">Navigation</h3>
+
+                <ul class="text-xs text-slate-500 flex flex-col justify-start items-start gap-2">
+                    <li><a class="hover:text-slate-50" href="#hero-section">Hero section</a></li>
+                    <li><a class="hover:text-slate-50" href="#about-section">About</a></li>
+                    <li><a class="hover:text-slate-50" href="#features-section">Features</a></li>
+                    <li><a class="hover:text-slate-50" href="#insights-section">Insights</a></li>
+                    <li><a class="hover:text-slate-50" href="#contact-section">Contact</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="mb-4 text-sm font-bold">Holberton School</h3>
+
+                <ul class="text-xs text-slate-500 flex flex-col justify-start items-start gap-2">
+                    <li><a class="hover:text-slate-50" href="https://www.holbertonschool.fr/" target="_blank" rel="noopener noreferrer">About</a></li>
+                    <li><a class="hover:text-slate-50" href="https://www.holbertonschool.fr/methodologie" target="_blank" rel="noopener noreferrer">Methodology</a></li>
+                    <li><a class="hover:text-slate-50" href="https://www.holbertonschool.fr/a-propos" target="_blank" rel="noopener noreferrer">Story</a></li>
+                    <li><a class="hover:text-slate-50" href="https://www.holbertonschool.fr/" target="_blank" rel="noopener noreferrer">Agenda</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="mb-4 text-sm font-bold">Curriculum</h3>
+
+                <ul class="text-xs text-slate-500 flex flex-col justify-start items-start gap-2">
+                    <li><a class="hover:text-slate-50" href="https://www.holbertonschool.fr/programme/bachelor-ai-augmented-software-engineering" target="_blank" rel="noopener noreferrer">Bachelor</a></li>
+                    <li><a class="hover:text-slate-50" href="https://www.holbertonschool.fr/programme/bachelor-ai-augmented-software-engineering#programme" target="_blank" rel="noopener noreferrer">Program</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="max-w-6xl mx-auto pt-6 pb-24 flex flex-col md:flex-row justify-center md:justify-between items-start md:items-center text-xs text-slate-500 border-t border-slate-900">
+            <p>© <span id="year"></span> <a href="https://github.com/fchavonet" target="_blank" rel="noopener noreferrer">Fabien Chavonet</a></p>
+            <p>Built for the Holberton School Front-end Frameworks curriculum.</p>
+        </div>
     </footer>
 </body>
 

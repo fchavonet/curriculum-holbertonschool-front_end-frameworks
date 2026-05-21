@@ -88,3 +88,18 @@ async function displayInsights() {
 }
 
 displayInsights();
+
+
+/**************************
+* COPYRIGHT YEAR BEHAVIOR *
+**************************/
+
+const year = document.getElementById("year");
+
+if (year) {
+  year.textContent = new Date().getFullYear();
+} else {
+  console.log("No '#year' element found.");
+}
+
+
