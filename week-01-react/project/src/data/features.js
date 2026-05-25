@@ -3,7 +3,7 @@ import { Bot, Workflow, Brain, Database, Wrench, ShieldCheck } from "lucide-reac
 const features = [
   {
     icon: Bot,
-    title: "Autonomous Agents",
+    title: "Autonomous agents",
     description: "Deploy self-sufficient AI agents that can work 24/7 without supervision."
   },
   {
