@@ -1,10 +1,15 @@
 import Header from "./components/Header.jsx";
+import Hero from "./components/Hero.jsx";
 
 function App() {
   return (
-    <div id="top" className="min-h-screen bg-slate-950 text-slate-50 antialiased">
+    <>
       <Header />
-    </div>
+
+      <main>
+        <Hero />
+      </main>
+    </>
 
   );
 }
