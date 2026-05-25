@@ -69,7 +69,6 @@ The objective of this section is to keep the project simple and accessible while
 - Vite
 - JavaScript
 - Tailwind CSS
-- DaisyUI
 
 > TypeScript will not be introduced in this first version of the curriculum in order to allow students to strengthen their JavaScript fundamentals before moving on to more advanced concepts related to typing and the TypeScript ecosystem.
 
@@ -80,7 +79,7 @@ The objective of this section is to keep the project simple and accessible while
 - Initializing a React project with Vite.
 - Cleaning and organizing the default project structure.
 - Understanding the architecture of a modern React application.
-- Installing and configuring Tailwind CSS and DaisyUI.
+- Installing and configuring Tailwind CSS.
 - Structuring the project using reusable components.
 - Creating the different sections of the landing page using a component-based approach.
 - Understanding component composition and file organization.
@@ -146,12 +145,12 @@ curriculum-holbertonschool-front_end-frameworks/
 ├── docs/
 │   ├── curriculum-proposal.md
 ├── design/
-│   ├── mockup-desktop.png
-│   ├── mockup-mobile.png
+│   ├── mockup-desktop.webp
+│   ├── mockup-tablet.webp
+│   ├── mockup-mobile.webp
 │   ├── style-guide.md
 │   └── assets/
 │       ├── images/
-│       └── icons/
 │
 ├── week-01-react/
 │   ├── README.md

@@ -10,17 +10,17 @@ The interface follows a modern AI-native visual direction inspired by futuristic
 
 ### Primary colors
 
-![Primary colors screenshot](../assets/images/style-guide/primary_colors.webp)
+![Primary colors screenshot](./assets/images/primary_colors.webp)
 
 ### Text colors
 
-![Text colors screenshot](../assets/images/style-guide/text_colors.webp)
+![Text colors screenshot](./assets/images/text_colors.webp)
 
 ## 3. Typography
 
 ### Hero title
 
-![Hero title screenshot](../assets/images/style-guide/hero_title.webp)
+![Hero title screenshot](./assets/images/hero_title.webp)
 
 #### Tailwind classes
 
@@ -30,7 +30,7 @@ text-5xl md:text-7xl font-black tracking-tight leading-none
 
 ### Section titles
 
-![Section titles screenshot](../assets/images/style-guide/section_titles.webp)
+![Section titles screenshot](./assets/images/section_titles.webp)
 
 #### Tailwind classes
 
@@ -40,7 +40,7 @@ text-4xl md:text-5xl font-black tracking-tight leading-none
 
 ### Body text
 
-![Body text screenshot](../assets/images/style-guide/body_text.webp)
+![Body text screenshot](./assets/images/body_text.webp)
 
 #### Tailwind classes
 
@@ -89,7 +89,7 @@ grid sm:grid-cols-2 lg:grid-cols-3 gap-8
 
 ### Primary button
 
-![Primary button screenshot](../assets/images/style-guide/primary_button.webp)
+![Primary button screenshot](./assets/images/primary_button.webp)
 
 #### Tailwind classes
 
@@ -99,7 +99,7 @@ px-4 py-2 font-semibold rounded-md bg-violet-500 hover:bg-violet-600 shadow-lg s
 
 ### Secondary button
 
-![Secondary button screenshot](../assets/images/style-guide/secondary_button.webp)
+![Secondary button screenshot](./assets/images/secondary_button.webp)
 
 #### Tailwind classes
 
@@ -111,7 +111,7 @@ px-4 py-2 font-semibold rounded-md border border-slate-800 bg-slate-950 hover:bg
 
 ### Statistics card
 
-![Statistics card screenshot](../assets/images/style-guide/statistics_card.webp)
+![Statistics card screenshot](./assets/images/statistics_card.webp)
 
 #### Tailwind classes
 
@@ -121,7 +121,7 @@ p-6 rounded-xl border border-slate-800 bg-slate-950 shadow-xl shadow-slate-950/4
 
 ### Feature card
 
-![Feature card screenshot](../assets/images/style-guide/feature_card.webp)
+![Feature card screenshot](./assets/images/feature_card.webp)
 
 #### Tailwind classes
 
@@ -133,7 +133,7 @@ p-8 rounded-3xl border border-slate-800 bg-slate-950 shadow-xl shadow-slate-950/
 
 ### Input fields
 
-![Input fields screenshot](../assets/images/style-guide/input_fields.webp)
+![Input fields screenshot](./assets/images/input_fields.webp)
 
 #### Tailwind classes
 
@@ -154,7 +154,7 @@ focus:outline-none
 
 ### Eyebrow
 
-![Eyebrow screenshot](../assets/images/style-guide/eyebrow.webp)
+![Eyebrow screenshot](./assets/images/eyebrow.webp)
 
 #### Tailwind classes
 
