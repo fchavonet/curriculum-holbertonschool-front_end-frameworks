@@ -133,6 +133,11 @@ project/
 │   ├── global.css
 │   ├── App.jsx
 │   └── main.jsx
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
 ├── package.json
 └── vite.config.js
 ```
@@ -142,16 +147,17 @@ project/
 ```
 curriculum-holbertonschool-front_end-frameworks/
 ├── README.md
-├── docs/
-│   ├── curriculum-proposal.md
 ├── design/
+│   └── assets/
+│   ├── static_prototype
 │   ├── mockup-desktop.webp
 │   ├── mockup-tablet.webp
 │   ├── mockup-mobile.webp
 │   ├── style-guide.md
-│   └── assets/
-│       ├── images/
 │
+├── docs/
+│   ├── curriculum-proposal.md
+|
 ├── week-01-react/
 │   ├── README.md
 │   ├── tasks/
