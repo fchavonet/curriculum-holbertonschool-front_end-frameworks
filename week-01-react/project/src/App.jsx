@@ -4,6 +4,7 @@ import About from "./components/About.jsx";
 import Features from "./components/Features.jsx";
 import Insights from "./components/Insights.jsx";
 import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Insights />
         <Contact />
       </main>
+
+      <Footer />
     </>
 
   );
