@@ -1,27 +1,6 @@
 import SectionBadge from "./SectionBadge.jsx";
 
-const steps = [
-  {
-    number: 1,
-    title: "Understand the goal",
-    description: "The agent interprets the user’s objective and identifies what needs to be achieved."
-  },
-  {
-    number: 2,
-    title: "Plan the steps",
-    description: "It breaks the objective into smaller actions and selects the most relevant path."
-  },
-  {
-    number: 3,
-    title: "Use tools and data",
-    description: "It can interact with APIs, databases, files, interfaces, or other services to complete tasks."
-  },
-  {
-    number: 4,
-    title: "Evaluate and adapt",
-    description: "It checks results, corrects mistakes, and adjusts the next action when needed."
-  }
-];
+import steps from "../data/steps.js";
 
 function About() {
   return (
@@ -55,9 +34,9 @@ function About() {
 
             <div>
               <h3 className="text-lg font-bold text-violet-300">Agentic AI</h3>
+
               <p className="mt-2 text-sm text-slate-500">
-                Understands a goal, chooses actions, uses external tools, follows a plan,
-                and adjusts its behavior based on feedback.
+                Understands a goal, chooses actions, uses external tools, follows a plan, and adjusts its behavior based on feedback.
               </p>
             </div>
           </div>

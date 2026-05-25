@@ -14,16 +14,24 @@ function Header() {
 
         <nav className="flex flex-row justify-center items-center gap-8 text-xs text-slate-500">
           <ul className="hidden md:flex flex-row justify-center items-center gap-8">
-            <li><a className="hover:text-slate-50" href="#about-section">About</a></li>
-            <li><a className="hover:text-slate-50" href="#features-section">Features</a></li>
-            <li><a className="hover:text-slate-50" href="#insights-section">Insights</a></li>
-            <li><a className="hover:text-slate-50" href="#contact-section">Contact</a></li>
+            <li>
+              <a className="hover:text-slate-50" href="#about-section">About</a>
+            </li>
+
+            <li>
+              <a className="hover:text-slate-50" href="#features-section">Features</a>
+            </li>
+
+            <li>
+              <a className="hover:text-slate-50" href="#insights-section">Insights</a>
+            </li>
+
+            <li>
+              <a className="hover:text-slate-50" href="#contact-section">Contact</a>
+            </li>
           </ul>
 
-          <a
-            className="px-4 py-2 font-semibold text-slate-50 rounded-md bg-violet-500 hover:bg-violet-600 shadow-lg shadow-violet-500/40" href="https://www.holbertonschool.fr/rejoindre-lhippocamp" target="_blank" rel="noopener noreferrer">
-            Enroll now
-          </a>
+          <a className="px-4 py-2 font-semibold text-slate-50 rounded-md bg-violet-500 hover:bg-violet-600 shadow-lg shadow-violet-500/40" href="https://www.holbertonschool.fr/rejoindre-lhippocamp" target="_blank" rel="noopener noreferrer">Enroll now</a>
         </nav>
       </div>
     </header>

@@ -16,12 +16,14 @@ function Hero() {
 
         <h1 className="text-5xl md:text-7xl font-black tracking-tight leading-none">
           Build smarter workflows
-          <span className="block text-violet-300">with Agentic AI</span>
+
+          <span className="block text-violet-300">
+            with Agentic AI
+          </span>
         </h1>
 
         <p className="max-w-2xl text-sm md:text-base text-slate-300">
-          Create autonomous AI agents that think, plan, and execute complex tasks.
-          Transform your business with intelligent automation.
+          Create autonomous AI agents that think, plan, and execute complex tasks. Transform your business with intelligent automation.
         </p>
 
         <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
