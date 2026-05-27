@@ -104,21 +104,21 @@ export default features;
 
 ## Requirements
 
-The component must be created in `src/sections/Features.jsx`.
-The reusable card component must be created in `src/components/FeatureCard.jsx`.
-The data file must be created in `src/data/features.js`.
-The features data must be imported into the `Features` component.
-The features must be rendered dynamically with `.map()`.
-Feature data must be passed to `FeatureCard` using props.
-Each feature card must display an `icon`, a `title` and a `description`.
-Icons must be imported from `lucide-react`.
-The component must be imported in `src/App.jsx`.
-The component must be rendered below the `About` component.
-The section must use the `features-section` id.
+- The component must be created in `src/sections/Features.jsx`.
+- The reusable card component must be created in `src/components/FeatureCard.jsx`.
+- The data file must be created in `src/data/features.js`.
+- The features data must be imported into the `Features` component.
+- The features must be rendered dynamically with `.map()`.
+- Feature data must be passed to `FeatureCard` using props.
+- Each feature card must display an `icon`, a `title` and a `description`.
+- Icons must be imported from `lucide-react`.
+- The component must be imported in `src/App.jsx`.
+- The component must be rendered below the `About` component.
+- The section must use the `features-section` id.
 
 **Repo:**
 
-GitHub repository: `holbertonschool-agentic_ai`.
-Directory: `front_end-frameworks/react/`.
-Files: `src/sections/Features.jsx`, `src/components/FeatureCard.jsx`, `src/data/features.js`, `src/App.jsx`.
-Code language: `JavaScript`.
+- GitHub repository: `holbertonschool-agentic_ai`.
+- Directory: `front_end-frameworks/react/`.
+- Files: `src/sections/Features.jsx`, `src/components/FeatureCard.jsx`, `src/data/features.js`, `src/App.jsx`.
+- Code language: `JavaScript`.
