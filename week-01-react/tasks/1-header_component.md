@@ -44,11 +44,11 @@ The goal of this task is to create the first reusable React component of the pro
 
 ## Requirements:
 
-    - The component must be created in `src/components/Header.jsx`.
-    - The component must be imported in `src/App.jsx`.
-    - The component must be rendered at the top of the application.
-    - Navigation links must use valid anchor links.
-    - The call-to-action must be visually identifiable.
+- The component must be created in `src/components/Header.jsx`.
+- The component must be imported in `src/App.jsx`.
+- The component must be rendered at the top of the application.
+- Navigation links must use valid anchor links.
+- The call-to-action must be visually identifiable.
 
 **Repo:**
 

@@ -52,13 +52,13 @@ The goal of this task is to create a clean project foundation that will be used 
 
 ## Requirements:
 
-    - Remove unused default assets.
-    - The project must contain a `src/global.css` file.
-    - The project must import `global.css` in `src/main.jsx`.
-    - The project must include working `dev`, `lint`, `fix`, `build`, `preview` and `deploy` scripts.
-    - The project must include a valid `base` configuration for GitHub Pages.
-    - The deployment must publish the `dist` folder to a dedicated GitHub Pages branch.
-    - The deployed temporary homepage must be accessible online.
+- Remove unused default assets.
+- The project must contain a `src/global.css` file.
+- The project must import `global.css` in `src/main.jsx`.
+- The project must include working `dev`, `lint`, `fix`, `build`, `preview` and `deploy` scripts.
+- The project must include a valid `base` configuration for GitHub Pages.
+- The deployment must publish the `dist` folder to a dedicated GitHub Pages branch.
+- The deployed temporary homepage must be accessible online.
 
 **Repo:**
 
