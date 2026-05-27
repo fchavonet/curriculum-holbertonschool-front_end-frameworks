@@ -19,7 +19,7 @@ The goal of this task is to create a clean project foundation that will be used 
         </tr>
     </table>
 
-    > You can refer to [this documentation](https://tailwindcss.com/docs/installation/using-vite) to properly configure React and Tailwind CSS with Vite.
+> You can refer to [this documentation](https://tailwindcss.com/docs/installation/using-vite) to properly configure React and Tailwind CSS with Vite.
 
 - Configure the project with the required tools and packages for the rest of the curriculum.
 
@@ -48,7 +48,7 @@ The goal of this task is to create a clean project foundation that will be used 
     - At least one Lucide React icon.
     - Basic styling with Tailwind CSS.
 
-    > This temporary homepage will be replaced in the next tasks and is only intended to verify that the project is correctly configured and running properly.
+> This temporary homepage will be replaced in the next tasks and is only intended to verify that the project is correctly configured and running properly.
 
 ## Requirements:
 
