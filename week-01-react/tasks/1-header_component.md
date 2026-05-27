@@ -4,12 +4,12 @@ Create the main header of the landing page.
 
 The goal of this task is to create the first reusable React component of the project.
 
-- Create a Header component in `src/components/Header.jsx`.
+- Create a `Header.jsx` component in `src/components/Header.jsx`.
 
-    The component must contain:
-    - A brand/logo area.
-    - Navigation links.
-    - A main call-to-action button or link.
+    - The component must contain:
+        - A brand/logo area.
+        - Navigation links.
+        - A main call-to-action button or link.
 
 - The header must match the provided mockup and [style guide](../../design/style-guide.md).
 
@@ -17,24 +17,24 @@ The goal of this task is to create the first reusable React component of the pro
 
 - The navigation links must point to the future corresponding page sections using anchor links.
 
-    Example:
+    - Example:
 
-    ```
-    #about-section
-    #features-section
-    #insights-section
-    #contact-section
-    ```
+        ```text
+        #about-section
+        #features-section
+        #insights-section
+        #contact-section
+        ```
 
 - Use semantic HTML.
 
-    The component must use a `header` element.
+    - The component must use a `header` element.
 
 - Use Tailwind CSS to style the component.
 
 - The header must be responsive.
 
-    On smaller screens, the layout must remain readable and visually consistent with the mockup.
+    - On smaller screens, the layout must remain readable and visually consistent with the mockup.
 
 ![Header screenshot](../assets/images/screenshots/header-mobile.webp)
 
