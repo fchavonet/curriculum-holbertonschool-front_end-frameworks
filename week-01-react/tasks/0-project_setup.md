@@ -1,5 +1,7 @@
 # 0. Project setup
 
+Set up the initial React application using Vite.
+
 The goal of this task is to create a clean project foundation that will be used for all the following tasks.
 
 - Create a React project with Vite in the `front_end-frameworks/react/` directory.
@@ -50,21 +52,17 @@ The goal of this task is to create a clean project foundation that will be used 
 
 ## Requirements:
 
-- Remove unused default assets.
-- The project must contain a `src/global.css` file.
-- The project must import `global.css` in `src/main.jsx`.
-- The project must include working `dev`, `lint`, `fix`, `build`, `preview` and `deploy` scripts.
-- The project must include a valid `base` configuration for GitHub Pages.
-- The project must deploy the production build using `gh-pages`.
-- The deployment must publish the `dist` folder to a dedicated GitHub Pages branch.
-- The deployed temporary homepage must be accessible online.
-- The project must run without errors.
-- The project must build without errors.
-- No lint errors.
+    - Remove unused default assets.
+    - The project must contain a `src/global.css` file.
+    - The project must import `global.css` in `src/main.jsx`.
+    - The project must include working `dev`, `lint`, `fix`, `build`, `preview` and `deploy` scripts.
+    - The project must include a valid `base` configuration for GitHub Pages.
+    - The deployment must publish the `dist` folder to a dedicated GitHub Pages branch.
+    - The deployed temporary homepage must be accessible online.
 
 **Repo:**
 
 - GitHub repository: `holbertonschool-agentic_ai`.
 - Directory: `front_end-frameworks/react/`.
-- Files: `src/App.jsx`, `src/main.jsx`, `src/global.css`, `vite.config.js`, `package.json`, `eslint.config.js`.
+- Files: `src/global.css`, `src/App.jsx`, `src/main.jsx`, `eslint.config.js`, `index.html`, `package.json`, `vite.config.js`, `.gitignore`, `README.md`.
 - Code language: `JavaScript`.
