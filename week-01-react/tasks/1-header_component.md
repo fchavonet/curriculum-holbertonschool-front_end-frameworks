@@ -4,7 +4,7 @@ Create the main header of the landing page.
 
 The goal of this task is to create the first reusable React component of the project.
 
-- Create a `Header.jsx` component in `src/components/Header.jsx`.
+- Create a `Header` component in `src/components/Header.jsx`.
 
     - The component must contain:
         - A brand/logo area.
@@ -38,7 +38,7 @@ The goal of this task is to create the first reusable React component of the pro
 
 ![Header screenshot](../assets/images/screenshots/header-mobile.webp)
 
-- Import and render the `Header.jsx` component in `src/App.jsx`.
+- Import and render the `Header` component in `src/App.jsx`.
 
 - Build and deploy your project with GitHub Pages.
 
