@@ -52,7 +52,7 @@ The goal of this task is to create a complete static React section before introd
 
 - The component must be created in `src/sections/Hero.jsx`.
 - The component must be imported in `src/App.jsx`.
-- The component must be rendered below the `Header.jsx` component.
+- The component must be rendered below the `Hero` component.
 - The section must use the `hero-section` id.
 - The section must contain a main title using an `h1` element.
 - The primary and secondary call-to-action links must be visually identifiable.

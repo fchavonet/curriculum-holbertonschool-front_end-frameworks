@@ -87,7 +87,7 @@ export default steps;
 
 - The component must be created in `src/sections/About.jsx`.
 - The data file must be created in `src/data/steps.js`.
-- The steps data must be imported into `About.jsx`.
+- The steps data must be imported into `About` component.
 - The steps must be rendered dynamically with `.map()`.
 - Each step item must display a `number`, a `title` and a `description`.
 - The component must be imported in `src/App.jsx`.
