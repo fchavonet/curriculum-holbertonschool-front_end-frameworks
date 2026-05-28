@@ -75,8 +75,8 @@ The goal of this task is to reorganize the application into clear component cate
 
 <table align="center" width="100%">
     <tr>
-        <th width="40%" align="center">Desktop view</th>
-        <th width="35%" align="center">Tablet view</th>
+        <th width="45%" align="center">Desktop view</th>
+        <th width="30%" align="center">Tablet view</th>
         <th width="25%" align="center">Mobile view</th>
     </tr>
     <tr valign="top">
