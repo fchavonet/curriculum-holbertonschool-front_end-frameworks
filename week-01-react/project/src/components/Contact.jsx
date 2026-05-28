@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { FolderCode, Sparkles, Users } from "lucide-react";
+import { AtSign, FolderCode, Mail, Sparkles, Users, User } from "lucide-react";
 
 import SectionBadge from "./SectionBadge.jsx";
 
@@ -146,24 +146,24 @@ function Contact() {
 
         <form className="w-full max-w-2xl mt-8 p-8 flex flex-col justify-center items-center gap-8 text-start rounded-3xl border border-slate-800 bg-slate-950/80 backdrop-blur shadow-2xl shadow-slate-950/40" onSubmit={handleSubmit}>
           <div className="w-full flex flex-col gap-2">
-            <label className="ms-4 text-sm font-semibold" htmlFor="name">
-              Full name
+            <label className="ms-2 flex flex-row justify-start items-center gap-2 text-sm font-semibold" htmlFor="name">
+              <User className="w-4 h-4 text-violet-500" /> Full name
             </label>
 
             <input id="name" className={getFieldClass(isNameValid())} name="name" type="text" placeholder="Your full name..." value={formData.name} onChange={handleChange} autoComplete="off" required />
           </div>
 
           <div className="w-full flex flex-col gap-2">
-            <label className="ms-4 text-sm font-semibold" htmlFor="email">
-              Email
+            <label className="ms-2 flex flex-row justify-start items-center gap-2 text-sm font-semibold" htmlFor="name">
+              <AtSign className="w-4 h-4 text-violet-500" /> Email
             </label>
 
             <input id="email" className={getFieldClass(isEmailValid())} name="email" type="email" placeholder="you@example.com" value={formData.email} onChange={handleChange} autoComplete="off" required />
           </div>
 
           <div className="w-full flex flex-col gap-2">
-            <label className="ms-4 text-sm font-semibold" htmlFor="message">
-              Message
+            <label className="ms-2 flex flex-row justify-start items-center gap-2 text-sm font-semibold" htmlFor="name">
+              <Mail className="w-4 h-4 text-violet-500" /> Message
             </label>
 
             <textarea id="message" className={`${getFieldClass(isMessageValid())} min-h-32 resize-none`} name="message" placeholder="Tell us about your project or learning goals!" value={formData.message} onChange={handleChange} autoComplete="off" required></textarea>
