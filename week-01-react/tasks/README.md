@@ -31,20 +31,20 @@ Later in the curriculum, the same interface will be adapted to other frontend fr
 - [Style guide](../../design/style-guide.md)
 - [Live preview](https://fchavonet.github.io/curriculum-holbertonschool-front_end-frameworks/)
 
-<table align="center">
+<table align="center" width="100%">
     <tr>
-        <th align="center" style="text-align: center;">Desktop view</th>
-        <th align="center" style="text-align: center;">Tablet view</th>
-        <th align="center" style="text-align: center;">Mobile view</th>
+        <th width="40%" align="center">Desktop view</th>
+        <th width="35%" align="center">Tablet view</th>
+        <th width="25%" align="center">Mobile view</th>
     </tr>
     <tr valign="top">
-        <td align="center">
+        <td width="40%" align="center">
             <img width="100%" src="../../design/mockup-desktop.webp" alt="Desktop Screenshot">
         </td>
-        <td align="center">
+        <td width="35%" align="center">
             <img width="100%" src="../../design/mockup-tablet.webp" alt="Tablet Screenshot">
         </td>
-        <td align="center">
+        <td width="25%" align="center">
             <img width="100%" src="../../design/mockup-mobile.webp" alt="Mobile Screenshot">
         </td>
     </tr>
