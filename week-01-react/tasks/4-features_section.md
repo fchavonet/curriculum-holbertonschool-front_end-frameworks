@@ -96,7 +96,7 @@ export default features;
 
   - On smaller screens, the layout must remain readable and visually consistent with the mockup.
 
-  ![Features screenshot](../assets/images/screenshots/features-mobile.webp)
+![Features screenshot](../assets/images/screenshots/features-mobile.webp)
 
 - Import and render the `Features` component in `src/App.jsx`.
 
