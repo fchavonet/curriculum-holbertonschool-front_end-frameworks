@@ -73,7 +73,7 @@ The goal of this task is to build an interactive contact section using React sta
             <img width="100%" src="../assets/images/screenshots/form_input-valid.webp" alt="Valid screenshot">
         </td>
          <td align="center" width="25%">
-            <img width="100%" src="../assets/images/screenshots/form_input-invalid_edited.webp" alt="Invalid edited fieldscreenshot">
+            <img width="100%" src="../assets/images/screenshots/form_input-invalid_edited.webp" alt="Invalid edited field screenshot">
         </td>
          <td align="center" width="25%">
             <img width="100%" src="../assets/images/screenshots/form_input-full_valid.webp" alt="Validated form screenshot">
@@ -114,7 +114,7 @@ The goal of this task is to build an interactive contact section using React sta
             <img width="100%" src="../assets/images/screenshots/send_btn-message_sent.webp" alt="Message sent screenshot">
         </td>
     </tr>
-</table>      
+</table>
 
 - Display dynamic feedback below the submit button.
 
@@ -123,6 +123,25 @@ The goal of this task is to build an interactive contact section using React sta
         - Change while the message is being sent.
         - Change after a successful submission.
         - Return to the default message after a short delay.
+
+<table align="center">
+    <tr>
+        <th align="center" style="text-align: center;">Required fields</th>
+        <th align="center" style="text-align: center;">Sending</th>
+        <th align="center" style="text-align: center;">Message sent</th>
+    </tr>
+    <tr valign="top">
+        <td align="center" width="25%">
+            <img width="100%" src="../assets/images/screenshots/message-required.webp" alt="Required fields screenshot">
+        </td>
+        <td align="center" width="25%">
+            <img width="100%" src="../assets/images/screenshots/message-sending.webp" alt="Sending message screenshot">
+        </td>
+         <td align="center" width="25%">
+            <img width="100%" src="../assets/images/screenshots/message-message_sent.webp" alt="Message sent screenshot">
+        </td>
+    </tr>
+</table> 
 
 - The contact section must match the provided mockup and [style guide](../../design/style-guide.md).
 
