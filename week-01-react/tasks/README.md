@@ -115,7 +115,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - All files should end with a new line.
 - No inline styles allowed.
 - All components must be reusable when relevant.
-- The application must follow the provided mockup and style guide.
+- The application must follow the provided mockups and style guide.
 - The application must be responsive.
 - Your project must run locally.
 - Your project must build successfully.
@@ -135,10 +135,10 @@ project/
 ├── src/
 │   ├── assets/
 │   ├── components/
-│   │   ├──
-│   │   ├──
-│   │   ├──
-│   │   └──
+│   │   ├── ui
+│   │   ├── cards
+│   │   ├── layout
+│   │   └── sections
 │   ├── data/
 │   ├── services/
 │   ├── global.css
