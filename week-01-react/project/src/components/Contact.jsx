@@ -150,7 +150,7 @@ function Contact() {
               Full name
             </label>
 
-            <input id="name" className={getFieldClass(isNameValid())} name="name" type="text" placeholder="Your full name..." value={formData.name} onChange={handleChange} required />
+            <input id="name" className={getFieldClass(isNameValid())} name="name" type="text" placeholder="Your full name..." value={formData.name} onChange={handleChange} autoComplete="off" required />
           </div>
 
           <div className="w-full flex flex-col gap-2">
@@ -158,7 +158,7 @@ function Contact() {
               Email
             </label>
 
-            <input id="email" className={getFieldClass(isEmailValid())} name="email" type="email" placeholder="you@example.com" value={formData.email} onChange={handleChange} required />
+            <input id="email" className={getFieldClass(isEmailValid())} name="email" type="email" placeholder="you@example.com" value={formData.email} onChange={handleChange} autoComplete="off" required />
           </div>
 
           <div className="w-full flex flex-col gap-2">
@@ -166,7 +166,7 @@ function Contact() {
               Message
             </label>
 
-            <textarea id="message" className={`${getFieldClass(isMessageValid())} min-h-32 resize-none`} name="message" placeholder="Tell us about your project or learning goals!" value={formData.message} onChange={handleChange} required></textarea>
+            <textarea id="message" className={`${getFieldClass(isMessageValid())} min-h-32 resize-none`} name="message" placeholder="Tell us about your project or learning goals!" value={formData.message} onChange={handleChange} autoComplete="off" required></textarea>
           </div>
 
           <button className={getButtonClass()} type="submit" disabled={!isFormValid() || isSending}>
