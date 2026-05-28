@@ -101,5 +101,3 @@ if (year) {
 } else {
   console.log("No '#year' element found.");
 }
-
-
