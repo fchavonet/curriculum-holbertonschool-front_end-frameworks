@@ -1,7 +1,8 @@
-import SectionBadge from "./SectionBadge.jsx";
-import FeatureCard from "./FeatureCard.jsx";
+import SectionBadge from "../ui/SectionBadge.jsx";
+import SectionTitle from "../ui/SectionTitle.jsx";
+import FeatureCard from "../cards/FeatureCard.jsx";
 
-import features from "../data/features.js";
+import features from "../../data/features.js";
 
 function Features() {
   return (
@@ -9,15 +10,11 @@ function Features() {
       <div className="relative w-full max-w-6xl mx-auto px-6 flex flex-col justify-center items-center gap-8 text-center">
         <SectionBadge>Features</SectionBadge>
 
-        <h2 className="max-w-4xl text-4xl md:text-5xl font-black tracking-tight leading-none">
-          Everything You Need to Build
+        <SectionTitle highlight="With powerful AI agents">
+          Everything you need to build
+        </SectionTitle>
 
-          <span className="block text-violet-300">
-            With powerful AI agents
-          </span>
-        </h2>
-
-        <div className="w-full mx-auto mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="w-full mx-auto mt-12 grid md:grid-cols-3 gap-8">
           {features.map(function (feature) {
             return (
               <FeatureCard key={feature.title} icon={feature.icon} title={feature.title} description={feature.description} />

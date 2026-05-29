@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 
-import SectionBadge from "./SectionBadge.jsx";
-import InsightCard from "./InsightCard.jsx";
+import SectionBadge from "../ui/SectionBadge.jsx";
+import SectionTitle from "../ui/SectionTitle.jsx";
+import InsightCard from "../cards/InsightCard.jsx";
 
-import { getInsights } from "../services/insightsService.js";
+import { getInsights } from "../../services/insightsService.js";
 
 function Insights() {
   const [insights, setInsights] = useState([]);
@@ -29,13 +30,9 @@ function Insights() {
       <div className="relative max-w-6xl mx-auto px-6 flex flex-col justify-center items-center gap-8 text-center">
         <SectionBadge>Insights</SectionBadge>
 
-        <h2 className="max-w-4xl text-4xl md:text-5xl font-black tracking-tight leading-none">
+        <SectionTitle highlight="Through real-world scenes">
           Explore Agentic AI
-
-          <span className="block text-violet-300">
-            Through real-world scenes
-          </span>
-        </h2>
+        </SectionTitle>
 
         <div className="w-full mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {error && (

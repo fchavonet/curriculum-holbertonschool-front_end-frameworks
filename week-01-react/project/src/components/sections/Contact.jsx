@@ -2,7 +2,9 @@ import { useState } from "react";
 
 import { AtSign, FolderCode, Mail, Sparkles, Users, User } from "lucide-react";
 
-import SectionBadge from "./SectionBadge.jsx";
+import Button from "../ui/Button.jsx";
+import SectionBadge from "../ui/SectionBadge";
+import SectionTitle from "../ui/SectionTitle.jsx";
 
 const initialFormData = { name: "", email: "", message: "" };
 
@@ -109,22 +111,18 @@ function Contact() {
       <div className="relative w-full max-w-6xl mx-auto px-6 flex flex-col justify-center items-center gap-8 text-center">
         <SectionBadge>Start your AI journey</SectionBadge>
 
-        <h2 className="max-w-4xl text-5xl md:text-7xl font-black tracking-tight leading-none">
+        <SectionTitle highlight="Agentic AI?" size="large">
           Ready to Explore
-
-          <span className="block text-violet-300">
-            Agentic AI?
-          </span>
-        </h2>
+        </SectionTitle>
 
         <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
-          <a className="px-4 py-2 font-semibold rounded-md bg-violet-500 hover:bg-violet-600 shadow-lg shadow-violet-500/30" href="https://www.holbertonschool.fr/rejoindre-lhippocamp" target="_blank" rel="noopener noreferrer">
+          <Button href="https://www.holbertonschool.fr/rejoindre-lhippocamp">
             Enroll at Holberton School →
-          </a>
+          </Button>
 
-          <a className="px-4 py-2 font-semibold rounded-md border border-slate-800 bg-slate-950 hover:bg-slate-900 shadow-lg shadow-slate-950/40" href="https://www.holbertonschool.fr/admission" target="_blank" rel="noopener noreferrer">
+          <Button href="https://www.holbertonschool.fr/admission" variant="secondary">
             Need more information?
-          </a>
+          </Button>
         </div>
 
         <div className="flex flex-wrap justify-center items-center gap-8 text-sm text-slate-500">

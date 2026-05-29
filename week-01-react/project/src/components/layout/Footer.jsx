@@ -1,5 +1,8 @@
 import { BrainCircuit } from "lucide-react";
 
+import Brand from "../ui/Brand.jsx";
+import SocialLink from "../ui/SocialLink.jsx";
+
 function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -7,23 +10,17 @@ function Footer() {
     <footer className="bg-black px-6">
       <div className="max-w-6xl mx-auto pt-24 pb-12 grid md:grid-cols-5 gap-8">
         <div className="md:col-span-2 flex flex-col justify-start items-start gap-4">
-          <a className="flex flex-row justify-start items-center gap-2" href="#top">
-            <div className="w-7 h-7 flex flex-row justify-center items-center text-xs font-black rounded-lg bg-violet-500 shadow-lg shadow-violet-500/40">
-              <BrainCircuit className="w-4 h-4" />
-            </div>
-
-            <span className="text-sm font-bold">Agentic AI</span>
-          </a>
+          <Brand href="#top"/>
 
           <p className="text-xs text-slate-500">
             Explore the future of development with Agentic AI.
           </p>
 
           <div className="flex flex-row justify-start items-center gap-2">
-            <a className="w-8 h-8 flex flex-row justify-center items-center rounded-md border border-slate-800 bg-slate-950 hover:bg-violet-500 shadow-xl shadow-slate-950/40 hover:shadow-violet-500/40" href="https://www.instagram.com/holbertonfrance/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i className="bi bi-instagram"></i></a>
-            <a className="w-8 h-8 flex flex-row justify-center items-center rounded-md border border-slate-800 bg-slate-950 hover:bg-violet-500 shadow-xl shadow-slate-950/40 hover:shadow-violet-500/40" href="https://www.tiktok.com/@holbertonfrance" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i className="bi bi-tiktok"></i></a>
-            <a className="w-8 h-8 flex flex-row justify-center items-center rounded-md border border-slate-800 bg-slate-950 hover:bg-violet-500 shadow-xl shadow-slate-950/40 hover:shadow-violet-500/40" href="https://x.com/HolbertonFRA" target="_blank" rel="noopener noreferrer" aria-label="X"><i className="bi bi-twitter-x"></i></a>
-            <a className="w-8 h-8 flex flex-row justify-center items-center rounded-md border border-slate-800 bg-slate-950 hover:bg-violet-500 shadow-xl shadow-slate-950/40 hover:shadow-violet-500/40" href="https://www.youtube.com/@HolbertonFrance" target="_blank" rel="noopener noreferrer" aria-label="Youtube"><i className="bi bi-youtube"></i></a>
+            <SocialLink href="https://www.instagram.com/holbertonfrance/" label="Instagram" iconClassName="bi bi-instagram" />
+            <SocialLink href="https://www.tiktok.com/@holbertonfrance" label="TikTok" iconClassName="bi bi-tiktok" />
+            <SocialLink href="https://x.com/HolbertonFRA" label="X" iconClassName="bi bi-twitter-x" />
+            <SocialLink href="https://www.youtube.com/@HolbertonFrance" label="Youtube" iconClassName="bi bi-youtube" />
           </div>
         </div>
 

@@ -1,7 +1,8 @@
-import SectionBadge from "./SectionBadge.jsx";
-import StatCard from "./StatCard.jsx";
+import Button from "../ui/Button.jsx";
+import SectionBadge from "../ui/SectionBadge.jsx";
+import StatCard from "../cards/StatCard.jsx";
 
-import stats from "../data/stats.js";
+import stats from "../../data/stats.js";
 
 function Hero() {
   return (
@@ -27,13 +28,13 @@ function Hero() {
         </p>
 
         <div className="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
-          <a className="px-4 py-2 font-semibold rounded-md bg-violet-500 hover:bg-violet-600 shadow-lg shadow-violet-500/30" href="https://www.holbertonschool.fr/" target="_blank" rel="noopener noreferrer">
+          <Button href="https://www.holbertonschool.fr/">
             Start learning with Holberton School →
-          </a>
+          </Button>
 
-          <a className="px-4 py-2 font-semibold rounded-md border border-slate-800 bg-slate-950 hover:bg-slate-900 shadow-lg shadow-slate-950/40" href="https://www.holbertonschool.fr/methodologie" target="_blank" rel="noopener noreferrer">
+          <Button href="https://www.holbertonschool.fr/methodologie" variant="secondary">
             Methodology
-          </a>
+          </Button>
         </div>
 
         <div className="w-full max-w-4xl mt-8 grid grid-cols-2 md:grid-cols-4 gap-8">

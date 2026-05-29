@@ -23,8 +23,8 @@ The goal of this task is to reorganize the application into clear component cate
     │   │   ├── Hero.jsx
     │   │   └── Insights.jsx
     │   └── ui/
+    │       ├── Brand.jsx
     │       ├── Button.jsx
-    │       ├── Container.jsx
     │       ├── SectionBadge.jsx
     │       ├── SectionTitle.jsx
     │       └── SocialLink.jsx
@@ -45,24 +45,24 @@ The goal of this task is to reorganize the application into clear component cate
 - Create reusable UI components when relevant.
 
     The project must include:
-    - a reusable `Button` component;
-    - a reusable `Container` component;
-    - a reusable `SectionBadge` component;
-    - a reusable `SectionTitle` component;
-    - a reusable `SocialLink` component.
+    - A reusable `Brand` component.
+    - A reusable `Button` component.
+    - A reusable `SectionBadge` component.
+    - A reusable `SectionTitle` component.
+    - A reusable `SocialLink` component.
 
 - Use props to make reusable components flexible.
 
     Reusable components must receive dynamic content through props when relevant.
 
     For example:
-    - button text;
-    - button URL;
-    - section badge text;
-    - section title content;
-    - social link URL;
-    - social link label;
-    - card data.
+    - Button text.
+    - Button URL.
+    - Section badge text.
+    - Section title content.
+    - Social link URL.
+    - Social link label.
+    - Card data.
 
 - Update all imports after moving files.
 
@@ -73,20 +73,20 @@ The goal of this task is to reorganize the application into clear component cate
 
 - The application must still match the provided mockups and [style guide](../../design/style-guide.md).
 
-<table align="center" width="100%">
+<table align="center">
     <tr>
-        <th width="45%" align="center">Desktop view</th>
-        <th width="30%" align="center">Tablet view</th>
-        <th width="25%" align="center">Mobile view</th>
+        <th align="center" style="text-align: center;">Desktop view</th>
+        <th align="center" style="text-align: center;">Tablet view</th>
+        <th align="center" style="text-align: center;">Mobile view</th>
     </tr>
     <tr valign="top">
-        <td width="40%" align="center">
+        <td align="center">
             <img width="100%" src="../../design/mockup-desktop.webp" alt="Desktop Screenshot">
         </td>
-        <td width="35%" align="center">
+        <td align="center">
             <img width="100%" src="../../design/mockup-tablet.webp" alt="Tablet Screenshot">
         </td>
-        <td width="25%" align="center">
+        <td align="center">
             <img width="100%" src="../../design/mockup-mobile.webp" alt="Mobile Screenshot">
         </td>
     </tr>
@@ -100,8 +100,8 @@ The goal of this task is to reorganize the application into clear component cate
 - Section components must be located in `src/components/sections/`.
 - Card components must be located in `src/components/cards/`.
 - Reusable UI components must be located in `src/components/ui/`.
+- The project must include a reusable `Brand` component.
 - The project must include a reusable `Button` component.
-- The project must include a reusable `Container` component.
 - The project must include a reusable `SectionBadge` component.
 - The project must include a reusable `SectionTitle` component.
 - The project must include a reusable `SocialLink` component.
@@ -115,5 +115,5 @@ The goal of this task is to reorganize the application into clear component cate
 
 - GitHub repository: `holbertonschool-agentic_ai`.
 - Directory: `front_end-frameworks/react/`.
-- Files: `src/components/cards/FeatureCard.jsx`, `src/components/cards/InsightCard.jsx`, `src/components/cards/StatCard.jsx`, `src/components/layout/Footer.jsx`, `src/components/layout/Header.jsx`, `src/components/sections/About.jsx`, `src/components/sections/Contact.jsx`, `src/components/sections/Features.jsx`, `src/components/sections/Hero.jsx`, `src/components/sections/Insights.jsx`, `src/components/ui/Button.jsx`, `src/components/ui/Container.jsx`, `src/components/ui/SectionBadge.jsx`, `src/components/ui/SectionTitle.jsx`, `src/components/ui/SocialLink.jsx`, `src/data/features.js`, `src/data/insights.js`, `src/data/steps.js`, `src/services/insightsService.js`, `src/App.jsx`.
+- Files: `src/components/cards/FeatureCard.jsx`, `src/components/cards/InsightCard.jsx`, `src/components/cards/StatCard.jsx`, `src/components/layout/Footer.jsx`, `src/components/layout/Header.jsx`, `src/components/sections/About.jsx`, `src/components/sections/Contact.jsx`, `src/components/sections/Features.jsx`, `src/components/sections/Hero.jsx`, `src/components/sections/Insights.jsx`, `src/components/ui/Brand.jsx`, `src/components/ui/Button.jsx`, `src/components/ui/SectionBadge.jsx`, `src/components/ui/SectionTitle.jsx`, `src/components/ui/SocialLink.jsx`, `src/data/features.js`, `src/data/insights.js`, `src/data/steps.js`, `src/services/insightsService.js`, `src/App.jsx`.
 - Code language: `JavaScript`.
