@@ -1,19 +1,21 @@
 # 3. About section
 
-Create the about section of the landing page.
+Create the **about section** of the landing page.
 
-The goal of this task is to continue structuring the application by importing external data and rendering it dynamically inside a more detailed section layout.
+The goal of this task is to continue structuring the application by **importing external data and rendering it dynamically** inside a more detailed section layout.
+
+---
 
 - Create an `About` component in `src/sections/About.jsx`.
-
     - The component must contain:
         - A small introductory badge (eyebrow).
         - A section title (`h2`).
         - A short introduction text.
         - A steps area.
 
-- Create a `steps.js` file in `src/data/steps.js`.
+---
 
+- Create a `steps.js` file in `src/data/steps.js`.
     - The file must export an array of steps.
     - Each step item must contain:
         - A `number`.
@@ -21,7 +23,7 @@ The goal of this task is to continue structuring the application by importing ex
         - A `description`.
 
 <details>
-<summary>Example data structure (click to expand)</summary>
+<summary><b>Example data structure (click to expand)</b></summary>
 
 ```javascript
 const steps = [
@@ -51,37 +53,54 @@ export default steps;
 ```
 </details>
 
+---
+
 - Import the steps data into the `About` component.
 
+---
+
 - Render the steps dynamically using `.map()`.
+
+---
 
 - The about section must match the provided mockup and [style guide](../../design/style-guide.md).
 
 ![About screenshot](../assets/images/screenshots/about-desktop.webp)
 
-- Use semantic HTML.
+---
 
+- Use **semantic HTML**.
     - The section must use a `section` element.
 
-- The section must have the following id:
+---
 
+- The section must have the following id:
     - Example:
 
-    ```text
-    about-section
-    ```
+```text
+about-section
+```
+
+---
 
 - Use Tailwind CSS to style the component.
 
-- The about section must be responsive.
+---
 
+- The about section must be responsive.
     - On smaller screens, the layout must remain readable and visually consistent with the mockup.
 
 ![About screenshot](../assets/images/screenshots/about-mobile.webp)
 
+---
+
 - Import and render the `About` component in `src/App.jsx`.
 
-- Build and deploy your project with GitHub Pages.
+---
+
+- Build and **deploy your project** with GitHub Pages.
+
+---
 
 ## Requirements
 

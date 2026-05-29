@@ -61,55 +61,55 @@ You will have the opportunity to use AI later in the curriculum when adapting th
 
 ## Learning objectives
 
-At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), without the help of Google:
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), **without the help of Google**:
 
 #### General
 
-- What is Vite.
-- What is React.
-- What is a frontend build tool.
-- What is a frontend component.
-- What is component-based architecture.
-- Why reusable components matter.
-- Why frontend architecture matters.
-- What is a production build.
-- What is GitHub Pages.
+- _What is Vite._
+- _What is React._
+- _What is a frontend build tool._
+- _What is a frontend component._
+- _What is component-based architecture._
+- _Why reusable components matter._
+- _Why frontend architecture matters._
+- _What is a production build._
+- _What is GitHub Pages._
 
 #### React
 
-- What is JSX.
-- What is a prop in React.
-- What is state in React.
-- What is reactive rendering.
-- What is conditional rendering.
-- What is dynamic rendering.
-- How to organize a React project.
-- How to create React components.
-- How to structure reusable UI elements.
-- How to pass data with props.
-- How to manage state.
-- How to render dynamic content.
-- How to handle user interactions.
+- _What is JSX._
+- _What is a prop in React._
+- _What is state in React._
+- _What is reactive rendering._
+- _What is conditional rendering._
+- _What is dynamic rendering._
+- _How to organize a React project._
+- _How to create React components._
+- _How to structure reusable UI elements._
+- _How to pass data with props._
+- _How to manage state._
+- _How to render dynamic content._
+- _How to handle user interactions._
 
 #### UI and Accessibility
 
-- What is semantic HTML.
-- What is responsive design.
-- What is accessibility.
+- _What is semantic HTML._
+- _What is responsive design._
+- _What is accessibility._
 
 #### Tailwind CSS
 
-- How utility-first CSS works.
-- How to style components with Tailwind CSS.
-- How to structure layouts with Flexbox and Grid.
-- How responsive utility classes work.
+- _How utility-first CSS works._
+- _How to style components with Tailwind CSS._
+- _How to structure layouts with Flexbox and Grid._
+- _How responsive utility classes work._
 
 #### API Consumption
 
-- How asynchronous requests work.
-- How to fetch external data.
-- How to display dynamic content from an external file simulating an API.
-- How to manage loading states.
+- _How asynchronous requests work._
+- _How to fetch external data._
+- _How to display dynamic content from an external file simulating an API._
+- _How to manage loading states._
 
 ---
 
@@ -123,8 +123,8 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - Your project must use **Lucide React**.
 - **No external CSS** framework allowed except Tailwind CSS.
 - Your code must be properly indented.
-- All files should end with a new line.
-- No inline styles allowed.
+- All files should **end with a new line**.
+- **No inline styles** allowed.
 - All components must be reusable when relevant.
 - The application **must follow the provided mockups** and [style guide](../../design/style-guide.md).
 - The application must be **responsive**.

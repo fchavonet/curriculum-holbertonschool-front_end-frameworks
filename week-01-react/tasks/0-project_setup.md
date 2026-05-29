@@ -7,7 +7,6 @@ The goal of this task is to create a **clean project foundation** that will be u
 ---
 
 - Create a **React** project with **Vite** in the `front_end-frameworks/react/` directory.
-
     - Use the **React** framework and the **JavaScript** variant during the project initialization.
 
 <table align="center">
@@ -26,7 +25,6 @@ _You can refer to [this documentation](https://tailwindcss.com/docs/installation
 ---
 
 - Configure the project with the **required tools and packages** for the rest of the curriculum.
-
     - The project must include:
         - Tailwind CSS.
         - Lucide React.
@@ -37,7 +35,7 @@ _You can refer to [this documentation]() to properly deploy a Vite + React proje
 
 ---
 
-- Clean the default Vite files and **remove unused assets**.
+- Clean the default **Vite** files and **remove unused assets**.
 
 ---
 
@@ -52,8 +50,7 @@ _You can refer to [this documentation]() to properly deploy a Vite + React proje
 
 ---
 
-- Create a temporary homepage in `src/App.jsx`.
-
+- Create a **temporary homepage** in `src/App.jsx`.
     - The homepage must contain:
         - A main title (`h1`).
         - A short subtitle (`h2`).

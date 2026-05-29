@@ -2,7 +2,9 @@
 
 Create the features section of the landing page.
 
-The goal of this task is to continue working with dynamic data rendering while introducing reusable React components and props.
+The goal of this task is to continue working with dynamic data rendering while **introducing reusable React components and props**.
+
+---
 
 - Create a `Features` component in `src/sections/Features.jsx`.
 
@@ -11,6 +13,8 @@ The goal of this task is to continue working with dynamic data rendering while i
         - A section title (`h2`).
         - A short introduction text.
         - A features grid.
+
+---
 
 - Create a `features.js` file in `src/data/features.js`.
 
@@ -22,7 +26,7 @@ The goal of this task is to continue working with dynamic data rendering while i
         - A `description`.
 
 <details>
-<summary>Example data structure (click to expand)</summary>
+<summary><b>Example data structure (click to expand)</b></summary>
 
 ```javascript
 import { Bot, Workflow, Brain, Database, Wrench, ShieldCheck } from "lucide-react";
@@ -64,43 +68,66 @@ export default features;
 ```
 </details>
 
+---
+
 - Create a reusable `FeatureCard` component in `src/components/FeatureCard.jsx`.
+
+---
 
 - Import the features data into the `Features` component.
 
+---
+
 - Render the features dynamically using `.map()`.
+
+---
 
 - Pass the feature data to `FeatureCard` using props.
 
-- The icon must also be passed as a prop and rendered dynamically inside the component.
+---
+
+- The icon **must also be passed as a prop** and rendered dynamically inside the component.
+
+--
 
 - The features section must match the provided mockup and [style guide](../../design/style-guide.md).
 
 ![Features screenshot](../assets/images/screenshots/features-desktop.webp)
 
-- Use semantic HTML.
+---
 
+- Use **semantic HTML**.
   - The section must use a `section` element.
 
-- The section must have the following id:
+---
 
+- The section must have the following id:
   - Example:
 
-    ```text
-    features-section
-    ```
+```text
+features-section
+```
+
+---
 
 - Use Tailwind CSS to style the component.
 
-- The features section must be responsive.
+---
 
+- The features section must be responsive.
   - On smaller screens, the layout must remain readable and visually consistent with the mockup.
 
 ![Features screenshot](../assets/images/screenshots/features-mobile.webp)
 
+---
+
 - Import and render the `Features` component in `src/App.jsx`.
 
-- Build and deploy your project with GitHub Pages.
+---
+
+- Build and **deploy your project** with GitHub Pages.
+
+---
 
 ## Requirements
 

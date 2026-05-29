@@ -7,7 +7,6 @@ The goal of this task is to create a **complete static React section** before in
 ---
 
 - Create a `Hero` component in `src/sections/Hero.jsx`.
-
     - The component must contain:
         - A small introductory badge (eyebrow).
         - A main title (`h1`).
@@ -33,18 +32,16 @@ The goal of this task is to create a **complete static React section** before in
 ---
 
 - Use **semantic HTML**.
-
     - The section must use a `section` element.
 
 ---
 
 - The section must have the following `id`:
-
     - Example:
 
-        ```text
-        hero-section
-        ```
+```text
+hero-section
+```
 
 ---
 
@@ -53,7 +50,6 @@ The goal of this task is to create a **complete static React section** before in
 ---
 
 - The hero section must be responsive.
-
     - On smaller screens, the layout must remain readable and visually consistent with the mockup.
 
 ![Hero screenshot](../assets/images/screenshots/hero-mobile.webp)
@@ -64,7 +60,7 @@ The goal of this task is to create a **complete static React section** before in
 
 ---
 
-- Build and deploy your project with GitHub Pages.
+- Build and **deploy your project** with GitHub Pages.
 
 ---
 

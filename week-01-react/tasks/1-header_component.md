@@ -7,7 +7,6 @@ The goal of this task is to create the **first reusable React component** of the
 ---
 
 - Create a `Header` component in `src/components/Header.jsx`.
-
     - The component must contain:
         - A brand/logo area.
         - Navigation links.
@@ -22,20 +21,18 @@ The goal of this task is to create the **first reusable React component** of the
 ---
 
 - The navigation links must point to the future corresponding page sections using anchor links.
-
     - Example:
 
-        ```text
-        #about-section
-        #features-section
-        #insights-section
-        #contact-section
-        ```
+```text
+#about-section
+#features-section
+#insights-section
+#contact-section
+```
 
 ---
 
 - Use **semantic HTML**.
-
     - The component must use a `header` element.
     - The navigation section must use a `nav` element.
 
@@ -43,15 +40,20 @@ The goal of this task is to create the **first reusable React component** of the
 
 - Use Tailwind CSS to style the component.
 
-- The header must be responsive.
+---
 
+- The header must be responsive.
     - On smaller screens, the layout must remain readable and visually consistent with the mockup.
 
 ![Header screenshot](../assets/images/screenshots/header-mobile.webp)
 
+---
+
 - Import and render the `Header` component in `src/App.jsx`.
 
-- Build and deploy your project with GitHub Pages.
+---
+
+- Build and **deploy your project** with GitHub Pages.
 
 ---
 
