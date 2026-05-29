@@ -2,21 +2,26 @@
 
 ## Description
 
-This project introduces modern frontend development using React and the JavaScript ecosystem.
+This project introduces modern frontend development using **React** and the **JavaScript** ecosystem.
 
-You will progressively build a responsive landing page inspired by modern interfaces while learning the fundamentals of component-based frontend architecture.
+You will progressively build a **responsive landing page** inspired by modern interfaces while learning the fundamentals of **component-based** frontend architecture.
 
 The project is intentionally centered around a single-page application in order to focus on frontend architecture, UI composition and modern development workflows without the additional complexity of backend systems or multi-page application logic.
 
-This project will also serve as the foundation for future framework comparison exercises.
+This project will also serve as the foundation for future **framework comparison** exercises.
 <br>
 Later in the curriculum, the same interface will be adapted to other frontend frameworks in order to better understand the differences between modern component-based ecosystems and development approaches.
+
+To help you develop a strong understanding of React fundamentals, AI-assisted development tools are not allowed during this project.
+<br>
+You will have the opportunity to use AI later in the curriculum when adapting the application to other frontend frameworks and exploring AI-assisted development workflows.
 
 ## Resources
 
 ### Read or watch:
 
 - [React documentation](https://react.dev/learn)
+- [React Foundations](https://nextjs.org/learn/react-foundations)
 - [Vite documentation](https://vite.dev/guide/)
 - [Tailwind CSS documentation](https://tailwindcss.com/docs/installation/using-vite)
 - [Lucide React documentation](https://lucide.dev/guide/react/)
@@ -99,27 +104,27 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 - How asynchronous requests work.
 - How to fetch external data.
-- How to display dynamic content from an API.
+- How to display dynamic content from an external file simulating an API.
 - How to manage loading states.
 
 ## Requirements
 
-- All your files will be interpreted on Ubuntu 22.04 LTS.
+- **AI-assisted code generation** tools are **not allowed** for this project.
 - A `README.md` file is mandatory at the root of the repository.
-- Your project must use React with Vite.
-- Your project must use JavaScript.
-- Your project must use Tailwind CSS.
-- Your project must use Lucide React.
-- No external CSS framework allowed except Tailwind CSS.
+- Your project must use **React** with **Vite**.
+- Your project must use **JavaScript**.
+- Your project must use **Tailwind CSS**.
+- Your project must use **Lucide React**.
+- **No external CSS** framework allowed except Tailwind CSS.
 - Your code must be properly indented.
 - All files should end with a new line.
 - No inline styles allowed.
 - All components must be reusable when relevant.
-- The application must follow the provided mockups and style guide.
-- The application must be responsive.
+- The application **must follow the provided mockups** and style guide.
+- The application must be **responsive**.
 - Your project must run locally.
 - Your project must build successfully.
-- Your project must be deployable using GitHub Pages.
+- Your project must be **deployable using GitHub Pages**.
 
 ## More information
 
@@ -152,3 +157,30 @@ project/
 ├── .gitignore
 └── README.md
 ```
+
+### Lighthouse
+
+Once your project is completed and deployed, you can evaluate its quality using Lighthouse.
+
+Lighthouse provides automated audits covering:
+
+- Performance.
+- Accessibility.
+- Best Practices.
+- SEO.
+
+You can run Lighthouse audits using either:
+
+* [Google PageSpeed Insights](https://pagespeed.web.dev/).
+* The [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) tools built directly into your **browser's Developer Tools**.
+
+To analyze your project with PageSpeed Insights:
+
+1. Deploy your application to GitHub Pages.
+2. Open PageSpeed Insights.
+3. Paste your deployed URL.
+4. Run the analysis and review the generated report.
+
+A high Lighthouse score generally indicates a fast, accessible and well-structured application.
+
+![LightHouse screenshot](../assets/images/screenshots/lighthouse.webp)
