@@ -1,8 +1,10 @@
 # 2. Hero section
 
-Create the hero section of the landing page.
+Create the **hero section** of the landing page.
 
-The goal of this task is to create a complete static React section before introducing external data rendering in the next tasks.
+The goal of this task is to create a **complete static React section** before introducing external data rendering in the next tasks.
+
+---
 
 - Create a `Hero` component in `src/sections/Hero.jsx`.
 
@@ -14,21 +16,29 @@ The goal of this task is to create a complete static React section before introd
         - A secondary call-to-action link.
         - A stats area.
 
+---
+
 - The stats area must contain the following information:
     - `10K+` / `Active agents`.
     - `99.9%` / `Uptime`.
     - `50M+` / `Tasks automated`.
     - `24/7` / `Support`.
 
+---
+
 - The hero section must match the provided mockup and [style guide](../../design/style-guide.md).
 
 ![Hero screenshot](../assets/images/screenshots/hero-desktop.webp)
 
-- Use semantic HTML.
+---
+
+- Use **semantic HTML**.
 
     - The section must use a `section` element.
 
-- The section must have the following id:
+---
+
+- The section must have the following `id`:
 
     - Example:
 
@@ -36,7 +46,11 @@ The goal of this task is to create a complete static React section before introd
         hero-section
         ```
 
+---
+
 - Use Tailwind CSS to style the component.
+
+---
 
 - The hero section must be responsive.
 
@@ -44,9 +58,15 @@ The goal of this task is to create a complete static React section before introd
 
 ![Hero screenshot](../assets/images/screenshots/hero-mobile.webp)
 
+---
+
 - Import and render the `Hero` component in `src/App.jsx`.
 
+---
+
 - Build and deploy your project with GitHub Pages.
+
+---
 
 ## Requirements
 

@@ -16,9 +16,11 @@ To help you develop a strong understanding of React fundamentals, AI-assisted de
 <br>
 You will have the opportunity to use AI later in the curriculum when adapting the application to other frontend frameworks and exploring AI-assisted development workflows.
 
+---
+
 ## Resources
 
-### Read or watch:
+#### Read or watch:
 
 - [React documentation](https://react.dev/learn)
 - [React Foundations](https://nextjs.org/learn/react-foundations)
@@ -30,7 +32,7 @@ You will have the opportunity to use AI later in the curriculum when adapting th
 - [Build a React project cleanly and quickly (FR)](https://github.com/fchavonet/holbertonschool-concepts/blob/main/react/001-monter_un_projet_react_proprement_et_rapidement.md)
 - [How to deploy a Vite + React project on GitHub Pages]()
 
-### Mockups
+#### Mockups
 
 - [Figma]()
 - [Style guide](../../design/style-guide.md)
@@ -55,11 +57,13 @@ You will have the opportunity to use AI later in the curriculum when adapting th
     </tr>
 </table>
 
+---
+
 ## Learning objectives
 
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), without the help of Google:
 
-### General
+#### General
 
 - What is Vite.
 - What is React.
@@ -71,7 +75,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - What is a production build.
 - What is GitHub Pages.
 
-### React
+#### React
 
 - What is JSX.
 - What is a prop in React.
@@ -87,25 +91,27 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - How to render dynamic content.
 - How to handle user interactions.
 
-### UI and Accessibility
+#### UI and Accessibility
 
 - What is semantic HTML.
 - What is responsive design.
 - What is accessibility.
 
-### Tailwind CSS
+#### Tailwind CSS
 
 - How utility-first CSS works.
 - How to style components with Tailwind CSS.
 - How to structure layouts with Flexbox and Grid.
 - How responsive utility classes work.
 
-### API Consumption
+#### API Consumption
 
 - How asynchronous requests work.
 - How to fetch external data.
 - How to display dynamic content from an external file simulating an API.
 - How to manage loading states.
+
+---
 
 ## Requirements
 
@@ -128,7 +134,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## More information
 
-### Folder structure
+#### Folder structure
 
 During the project, you will progressively organize the application into reusable components.
 <br>
@@ -158,7 +164,7 @@ project/
 └── README.md
 ```
 
-### Lighthouse
+#### Lighthouse
 
 Once your project is completed and deployed, you can evaluate its quality using **Lighthouse**.
 
