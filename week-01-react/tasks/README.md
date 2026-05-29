@@ -120,7 +120,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 - All files should end with a new line.
 - No inline styles allowed.
 - All components must be reusable when relevant.
-- The application **must follow the provided mockups** and style guide.
+- The application **must follow the provided mockups** and [style guide](../../design/style-guide.md).
 - The application must be **responsive**.
 - Your project must run locally.
 - Your project must build successfully.
@@ -132,7 +132,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 During the project, you will progressively organize the application into reusable components.
 <br>
-Below is an example of the final folder structure for the project:
+Below is an example of the **final folder** structure for the project:
 
 ```
 project/
@@ -160,14 +160,14 @@ project/
 
 ### Lighthouse
 
-Once your project is completed and deployed, you can evaluate its quality using Lighthouse.
+Once your project is completed and deployed, you can evaluate its quality using **Lighthouse**.
 
 Lighthouse provides automated audits covering:
 
-- Performance.
-- Accessibility.
-- Best Practices.
-- SEO.
+- **Performance**.
+- **Accessibility**.
+- **Best Practices**.
+- **SEO**.
 
 You can run Lighthouse audits using either:
 
@@ -181,6 +181,6 @@ To analyze your project with PageSpeed Insights:
 3. Paste your deployed URL.
 4. Run the analysis and review the generated report.
 
-A high Lighthouse score generally indicates a fast, accessible and well-structured application.
+A high Lighthouse score generally indicates a **fast**, **accessible** and **well-structured** application.
 
-![LightHouse screenshot](../assets/images/screenshots/lighthouse.webp)
+![Lighthouse screenshot](../assets/images/screenshots/lighthouse.webp)
