@@ -71,6 +71,8 @@ _This temporary homepage is only used to verify that the project is correctly co
 - The deployment must publish the `dist` folder to a dedicated GitHub Pages branch.
 - The deployed temporary homepage must be accessible online.
 
+---
+
 **Repo:**
 
 - GitHub repository: `holbertonschool-agentic_ai`.

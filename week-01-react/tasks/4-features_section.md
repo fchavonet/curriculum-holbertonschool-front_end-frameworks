@@ -143,6 +143,8 @@ features-section
 - The component must be rendered below the `About` component.
 - The section must use the `features-section` id.
 
+---
+
 **Repo:**
 
 - GitHub repository: `holbertonschool-agentic_ai`.

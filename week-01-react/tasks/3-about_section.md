@@ -113,6 +113,8 @@ about-section
 - The component must be rendered below the `Hero` component.
 - The section must use the `about-section` id.
 
+---
+
 **Repo:**
 
 - GitHub repository: `holbertonschool-agentic_ai`.

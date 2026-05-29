@@ -65,6 +65,8 @@ The goal of this task is to create the **first reusable React component** of the
 - Navigation links must use valid anchor links.
 - The call-to-action must be visually identifiable.
 
+---
+
 **Repo:**
 
 - GitHub repository: `holbertonschool-agentic_ai`.

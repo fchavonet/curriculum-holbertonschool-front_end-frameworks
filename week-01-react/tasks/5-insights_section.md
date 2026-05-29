@@ -154,6 +154,8 @@ insights-section
 - The component must be rendered below the `Features` component.
 - The section must use the `insights-section` id.
 
+---
+
 **Repo:**
 
 - GitHub repository: `holbertonschool-agentic_ai`.

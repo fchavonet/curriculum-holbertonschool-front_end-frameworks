@@ -74,6 +74,8 @@ hero-section
 - The primary and secondary call-to-action links must be visually identifiable.
 - The stats area must display all four required stats.
 
+---
+
 **Repo:**
 
 - GitHub repository: `holbertonschool-agentic_ai`.

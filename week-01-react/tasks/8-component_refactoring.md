@@ -4,72 +4,82 @@ Refactor the project architecture into a more maintainable component structure.
 
 The goal of this task is to reorganize the application into clear component categories, reduce duplication and improve code maintainability without changing the final visual result.
 
+---
+
 - Reorganize the `src/components` folder using the following structure:
 
-    ```text
-    src/
-    ├── components/
-    │   ├── cards/
-    │   │   ├── FeatureCard.jsx
-    │   │   ├── InsightCard.jsx
-    │   │   └── StatCard.jsx
-    │   ├── layout/
-    │   │   ├── Footer.jsx
-    │   │   └── Header.jsx
-    │   ├── sections/
-    │   │   ├── About.jsx
-    │   │   ├── Contact.jsx
-    │   │   ├── Features.jsx
-    │   │   ├── Hero.jsx
-    │   │   └── Insights.jsx
-    │   └── ui/
-    │       ├── Brand.jsx
-    │       ├── Button.jsx
-    │       ├── SectionBadge.jsx
-    │       ├── SectionTitle.jsx
-    │       └── SocialLink.jsx
-    ├── data/
-    ├── services/
-    ├── App.jsx
-    ├── global.css
-    └── main.jsx
-    ```
+```text
+src/
+├── components/
+│   ├── cards/
+│   │   ├── FeatureCard.jsx
+│   │   ├── InsightCard.jsx
+│   │   └── StatCard.jsx
+│   ├── layout/
+│   │   ├── Footer.jsx
+│   │   └── Header.jsx
+│   ├── sections/
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Features.jsx
+│   │   ├── Hero.jsx
+│   │   └── Insights.jsx
+│   └── ui/
+│       ├── Brand.jsx
+│       ├── Button.jsx
+│       ├── SectionBadge.jsx
+│       ├── SectionTitle.jsx
+│       └── SocialLink.jsx
+├── data/
+├── services/
+├── App.jsx
+├── global.css
+└── main.jsx
+```
+
+---
 
 - Move the existing components into the appropriate folders.
-
     - Layout components must be placed in `src/components/layout/`.
     - Section components must be placed in `src/components/sections/`.
     - Card components must be placed in `src/components/cards/`.
     - Small reusable UI components must be placed in `src/components/ui/`.
 
-- Create reusable UI components when relevant.
+---
 
-    The project must include:
-    - A reusable `Brand` component.
-    - A reusable `Button` component.
-    - A reusable `SectionBadge` component.
-    - A reusable `SectionTitle` component.
-    - A reusable `SocialLink` component.
+- Create reusable UI components when relevant.
+    - The project must include:
+        - A reusable `Brand` component.
+        - A reusable `Button` component.
+        - A reusable `SectionBadge` component.
+        - A reusable `SectionTitle` component.
+        - A reusable `SocialLink` component.
+
+---
 
 - Use props to make reusable components flexible.
+    - Reusable components must receive dynamic content through props when relevant.
+    - For example:
+        - Button text.
+        - Button URL.
+        - Section badge text.
+        - Section title content.
+        - Social link URL.
+        - Social link label.
+        - Card data.
 
-    Reusable components must receive dynamic content through props when relevant.
-
-    For example:
-    - Button text.
-    - Button URL.
-    - Section badge text.
-    - Section title content.
-    - Social link URL.
-    - Social link label.
-    - Card data.
+---
 
 - Update all imports after moving files.
+
+---
 
 - The final page must remain visually identical to the previous task.
 
     This task is a refactoring task.
     It must improve the code structure without changing the interface.
+
+---
 
 - The application must still match the provided mockups and [style guide](../../design/style-guide.md).
 
@@ -91,6 +101,8 @@ The goal of this task is to reorganize the application into clear component cate
         </td>
     </tr>
 </table>
+
+---
 
 ## Requirements
 

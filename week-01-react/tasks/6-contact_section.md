@@ -228,6 +228,8 @@ contact-section
 - The component must be rendered below the `Insights` component.
 - The section must use the `contact-section` id.
 
+---
+
 **Repo:**
 
 - GitHub repository: `holbertonschool-agentic_ai`.
