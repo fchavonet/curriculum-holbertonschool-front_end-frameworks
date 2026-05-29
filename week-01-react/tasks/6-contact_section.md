@@ -1,11 +1,10 @@
 # 6. Contact section
 
-Create the contact section of the landing page.
+Create the **contact section** of the landing page.
 
-The goal of this task is to build an interactive contact section using React state, controlled inputs, frontend validation and dynamic user feedback.
+The goal of this task is to build an interactive contact section using **React state**, controlled inputs, frontend validation and dynamic user feedback.
 
 - Create a `Contact` component in `src/sections/Contact.jsx`.
-
     - The component must contain:
         - A small introductory badge (eyebrow).
         - A section title (`h2`).
@@ -15,8 +14,9 @@ The goal of this task is to build an interactive contact section using React sta
         - A contact form.
         - A feedback message area.
 
-- Import the required icons from `lucide-react`.
+---
 
+- Import the required icons from `lucide-react`.
    - The section must use icons for:
         - Project-based learning.
         - Peer learning environment.
@@ -25,35 +25,42 @@ The goal of this task is to build an interactive contact section using React sta
         - Email.
         - Message.
 
+---
+
 - The contact form must contain:
     - A full name field.
     - An email field.
     - A message field.
     - A submit button.
 
+---
+
 - Use `useState` to manage:
     - The form data.
     - The sending state.
     - The feedback message.
 
-- Use controlled inputs.
+---
 
+- Use controlled inputs.
     - Each form field must:
         - Have a `value` linked to the form state.
         - Update the form state when the user types.
         - Disable browser autocomplete.
 
-- Add basic frontend validation.
+---
 
+- Add basic frontend validation.
     - The form must only be valid when:
         - The full name contains at least 2 characters.
         - The email contains `@` and `.`.
         - The message contains at least 10 characters.
 
-> This validation is intentionally basic for learning purposes. In a real-world project, user input must also be validated and sanitized on the backend to prevent security issues such as invalid data, spam, injection attacks or malicious payloads.
+_This validation is intentionally basic for learning purposes. In a real-world project, user input must also be validated and sanitized on the backend to prevent security issues such as invalid data, spam, injection attacks or malicious payloads._
+
+---
 
 - Use dynamic styling for form fields.
-
     - When a field is focused:
         - Invalid fields must use a red border.
         - Valid fields must use a violet border.
@@ -81,12 +88,15 @@ The goal of this task is to build an interactive contact section using React sta
     </tr>
 </table>
 
+---
+
 - Disable the submit button while:
     - The form is invalid.
     - The message is being sent.
 
-- Simulate a message submission.
+---
 
+- Simulate a message submission.
     - The submit handler must:
         - Prevent the default form behavior.
         - Use an asynchronous function.
@@ -116,8 +126,9 @@ The goal of this task is to build an interactive contact section using React sta
     </tr>
 </table>
 
-- Display dynamic feedback below the submit button.
+---
 
+- Display dynamic feedback below the submit button.
     - The feedback message must:
         - Display a default instruction message.
         - Change while the message is being sent.
@@ -143,40 +154,57 @@ The goal of this task is to build an interactive contact section using React sta
     </tr>
 </table> 
 
+---
+
 - The contact section must match the provided mockup and [style guide](../../design/style-guide.md).
 
 ![Contact screenshot](../assets/images/screenshots/contact-desktop.webp)
 
-- Use semantic HTML.
+---
 
+- Use **semantic HTML**.
     - The section must use a `section` element.
     - The form must use a `form` element.
     - Each field must use a `label`.
     - Each `label` must be associated with its corresponding field.
 
-- The section must have the following id:
+---
 
+- The section must have the following `id`:
     - Example:
 
-    ```text
-    contact-section
-    ```
+```text
+contact-section
+```
+
+---
 
 - External links must open in a new tab.
 
+---
+
 - External links must use the appropriate security attributes.
+
+---
 
 - Use Tailwind CSS to style the component.
 
-- The contact section must be responsive.
+---
 
+- The contact section must be responsive.
     - On smaller screens, the layout must remain readable and visually consistent with the mockup.
 
 ![Contact screenshot](../assets/images/screenshots/contact-mobile.webp)
 
+---
+
 - Import and render the `Contact` component in `src/App.jsx`.
 
-- Build and deploy your project with GitHub Pages.
+---
+
+- Build and **deploy your project** with GitHub Pages.
+
+---
 
 ## Requirements
 

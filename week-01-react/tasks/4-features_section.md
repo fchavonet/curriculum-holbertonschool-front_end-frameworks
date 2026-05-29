@@ -88,7 +88,7 @@ export default features;
 
 - The icon **must also be passed as a prop** and rendered dynamically inside the component.
 
---
+---
 
 - The features section must match the provided mockup and [style guide](../../design/style-guide.md).
 
@@ -101,7 +101,7 @@ export default features;
 
 ---
 
-- The section must have the following id:
+- The section must have the following `id`:
   - Example:
 
 ```text

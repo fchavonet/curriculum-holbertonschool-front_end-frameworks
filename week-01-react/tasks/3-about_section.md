@@ -74,7 +74,7 @@ export default steps;
 
 ---
 
-- The section must have the following id:
+- The section must have the following `id`:
     - Example:
 
 ```text

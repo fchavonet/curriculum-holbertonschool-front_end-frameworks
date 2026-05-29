@@ -1,19 +1,21 @@
 # 5. Insights section
 
-Create the insights section of the landing page.
+Create the **insights section** of the landing page.
 
-The goal of this task is to introduce React state, side effects and a simple service layer to load data asynchronously.
+The goal of this task is to **introduce React state**, side effects and a simple service layer to load data asynchronously.
+
+---
 
 - Create an `Insights` component in `src/sections/Insights.jsx`.
-
     - The component must contain:
         - A small introductory badge (eyebrow).
         - A section title (`h2`).
         - An insights grid.
         - An error message area.
 
-- Create an `insights.js` file in `src/data/insights.js`.
+---
 
+- Create an `insights.js` file in `src/data/insights.js`.
     - The file must export an array of insights.
     - Each insight item must contain:
         - A `category`.
@@ -22,7 +24,7 @@ The goal of this task is to introduce React state, side effects and a simple ser
         - An `image`.
 
 <details>
-<summary>Example data structure (click to expand)</summary>
+<summary><b>Example data structure (click to expand)</b></summary>
 
 ```javascript
 const insights = [
@@ -62,52 +64,79 @@ export default insights;
 ```
 </details>
 
+---
+
 - Create an `insightsService.js` file in `src/services/insightsService.js`.
   - The service must import the insights data.
   - The service must export an asynchronous `getInsights` function.
   - The `getInsights` function must return the insights data.
 
+---
+
 - Import `getInsights` into the `Insights` component.
+
+---
 
 - Use `useState` to store:
   - The insights list.
   - An error message.
 
+---
+
 - Use `useEffect` to load the insights when the component is rendered.
+
+---
 
 - Use `async` / `await` to call `getInsights`.
 
+---
+
 - Handle loading errors with `try` / `catch`.
 
+---
+
 - Render the insights dynamically using `.map()`.
+
+---
 
 - The insights section must match the provided mockup and style guide.
 
 ![Insights screenshot](../assets/images/screenshots/insights-desktop.webp)
 
-- Use semantic HTML.
+---
 
+- Use **semantic HTML**.
   - The section must use a `section` element.
 
-- The section must have the following id:
+---
 
+- The section must have the following `id`:
   - Example:
 
-  ```
-  insights-section
-  ```
+```text
+insights-section
+```
+
+---
 
 - Use Tailwind CSS to style the component.
 
-- The insights section must be responsive.
+---
 
+- The insights section must be responsive.
   - On smaller screens, the layout must remain readable and visually consistent with the mockup.
 
 ![Insights screenshot](../assets/images/screenshots/insights-mobile.webp)
 
+---
+
 - Import and render the Insights component in src/App.jsx.
 
-- Build and deploy your project with GitHub Pages.
+---
+
+- Build and **deploy your project** with GitHub Pages.
+
+---
 
 ## Requirements
 
