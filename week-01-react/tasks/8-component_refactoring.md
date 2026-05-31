@@ -83,25 +83,6 @@ src/
 
 - The application must still match the provided mockups and [style guide](../../design/style-guide.md).
 
-<table align="center">
-    <tr>
-        <th align="center" style="text-align: center;">Desktop view</th>
-        <th align="center" style="text-align: center;">Tablet view</th>
-        <th align="center" style="text-align: center;">Mobile view</th>
-    </tr>
-    <tr valign="top">
-        <td align="center">
-            <img width="100%" src="../../design/mockup-desktop.webp" alt="Desktop Screenshot">
-        </td>
-        <td align="center">
-            <img width="100%" src="../../design/mockup-tablet.webp" alt="Tablet Screenshot">
-        </td>
-        <td align="center">
-            <img width="100%" src="../../design/mockup-mobile.webp" alt="Mobile Screenshot">
-        </td>
-    </tr>
-</table>
-
 ---
 
 ## Requirements
