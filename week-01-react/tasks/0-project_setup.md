@@ -20,7 +20,9 @@ The goal of this task is to create a **clean project foundation** that will be u
     </tr>
 </table>
 
-_You can refer to [this documentation](https://tailwindcss.com/docs/installation/using-vite) to properly configure React and Tailwind CSS with Vite._
+_You can refer to the official [Tailwind CSS documentation](https://tailwindcss.com/docs/installation/using-vite) to properly configure React and Tailwind CSS with Vite._
+<br>
+_For additional guidance in French, you can also consult this [one](https://github.com/fchavonet/holbertonschool-concepts/blob/main/react/001-monter_un_projet_react_proprement_et_rapidement.md)._
 
 ---
 
@@ -31,7 +33,7 @@ _You can refer to [this documentation](https://tailwindcss.com/docs/installation
         - ESLint.
         - GitHub Pages (`gh-pages`).
 
-_You can refer to [this documentation]() to properly deploy a Vite + React project on GitHub Pages._
+_You can refer to [this documentation](https://github.com/fchavonet/holbertonschool-concepts/blob/main/react/002-deployer_une_application_vite-react_sur_github_pages.md) to properly deploy a Vite + React project on GitHub Pages._
 
 ---
 

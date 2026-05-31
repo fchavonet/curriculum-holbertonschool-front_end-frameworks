@@ -30,7 +30,7 @@ You will have the opportunity to use AI later in the curriculum when adapting th
 - [ESLint documentation](https://eslint.org/docs/latest/)
 - [GitHub Pages documentation](https://docs.github.com/en/pages)
 - [Build a React project cleanly and quickly (FR)](https://github.com/fchavonet/holbertonschool-concepts/blob/main/react/001-monter_un_projet_react_proprement_et_rapidement.md)
-- [How to deploy a Vite + React project on GitHub Pages]()
+- [How to deploy a Vite/React project on GitHub Pages (FR)](https://github.com/fchavonet/holbertonschool-concepts/blob/main/react/002-deployer_une_application_vite-react_sur_github_pages.md)
 
 #### Mockups
 
