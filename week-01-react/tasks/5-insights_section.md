@@ -66,6 +66,10 @@ export default insights;
 
 ---
 
+- Create a reusable `InsightCard` component in `src/components/InsightCard.jsx`.
+
+---
+
 - Create an `insightsService.js` file in `src/services/insightsService.js`.
   - The service must import the insights data.
   - The service must export an asynchronous `getInsights` function.
@@ -74,6 +78,22 @@ export default insights;
 ---
 
 - Import `getInsights` into the `Insights` component.
+
+---
+
+- Render the insights dynamically using `.map()`.
+
+---
+
+- Pass the insight data to `InsightCard` using props.
+
+---
+
+- The `index` must also be passed as a prop to `InsightCard`.
+
+---
+
+- The first insight card must use a different layout style.
 
 ---
 
@@ -95,10 +115,6 @@ export default insights;
 
 ---
 
-- Render the insights dynamically using `.map()`.
-
----
-
 - The insights section must match the provided mockup and style guide.
 
 ![Insights screenshot](../assets/images/screenshots/insights-desktop.webp)
@@ -107,6 +123,7 @@ export default insights;
 
 - Use **semantic HTML**.
   - The section must use a `section` element.
+  - Each insight card must use an `article` element.
 
 ---
 
@@ -119,7 +136,7 @@ insights-section
 
 ---
 
-- Use Tailwind CSS to style the component.
+- Use **Tailwind CSS** to style the component.
 
 ---
 
@@ -130,7 +147,7 @@ insights-section
 
 ---
 
-- Import and render the Insights component in src/App.jsx.
+- Import and render the Insights component in `src/App.jsx`.
 
 ---
 
@@ -141,6 +158,7 @@ insights-section
 ## Requirements
 
 - The component must be created in `src/sections/Insights.jsx`.
+- The reusable card component must be created in `src/components/InsightCard.jsx`.
 - The data file must be created in `src/data/insights.js`.
 - The service file must be created in `src/services/insightsService.js`.
 - The insights data must be loaded through `getInsights`.
@@ -149,7 +167,11 @@ insights-section
 - The data loading logic must use `async` / `await`.
 - Loading errors must be handled with `try` / `catch`.
 - The insights must be rendered dynamically with `.map()`.
-- Each insight item must display a `category`, a `title`, a `description` and an `image`.
+- Insight data must be passed to `InsightCard` using props.
+- The `index` must be passed to `InsightCard` using props.
+- The first insight card must use a different layout style.
+- Each insight card must display a `category`, a `title`, a `description` and an `image`.
+- Each insight card must use an `article` element.
 - The component must be imported in `src/App.jsx`.
 - The component must be rendered below the `Features` component.
 - The section must use the `insights-section` id.
@@ -160,5 +182,5 @@ insights-section
 
 - GitHub repository: `holbertonschool-agentic_ai`.
 - Directory: `front_end-frameworks/react/`.
-- Files: `src/sections/Insights.jsx`, `src/data/insights.js`, `src/services/insightsService.js`, `src/App.jsx`.
+- Files: `src/sections/Insights.jsx`, `src/components/InsightCard.jsx`, `src/data/insights.js`, `src/services/insightsService.js`, `src/App.jsx`.
 - Code language: `JavaScript`.

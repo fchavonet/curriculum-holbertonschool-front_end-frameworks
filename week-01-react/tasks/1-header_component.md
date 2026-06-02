@@ -38,7 +38,7 @@ The goal of this task is to create the **first reusable React component** of the
 
 ---
 
-- Use Tailwind CSS to style the component.
+- Use **Tailwind CSS** to style the component.
 
 ---
 

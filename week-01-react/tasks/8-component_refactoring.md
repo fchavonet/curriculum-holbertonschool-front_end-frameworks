@@ -39,7 +39,7 @@ src/
 
 ---
 
-- Move the existing components into the appropriate folders.
+- Move the **existing components** into the appropriate folders.
     - Layout components must be placed in `src/components/layout/`.
     - Section components must be placed in `src/components/sections/`.
     - Card components must be placed in `src/components/cards/`.
@@ -47,13 +47,15 @@ src/
 
 ---
 
-- Create reusable UI components when relevant.
+- Create **reusable** UI components when relevant.
     - The project must include:
         - A reusable `Brand` component.
         - A reusable `Button` component.
         - A reusable `SectionBadge` component.
         - A reusable `SectionTitle` component.
         - A reusable `SocialLink` component.
+
+_These are minimum requirements. Feel free to identify additional repeated UI patterns and create your own reusable components whenever it improves maintainability and code organization._
 
 ---
 
@@ -70,14 +72,13 @@ src/
 
 ---
 
-- Update all imports after moving files.
+- Update **all imports** after moving files.
 
 ---
 
 - The final page must remain visually identical to the previous task.
-
-    This task is a refactoring task.
-    It must improve the code structure without changing the interface.
+    - This task is a **refactoring task**.
+    - It must improve the code structure without changing the interface.
 
 ---
 

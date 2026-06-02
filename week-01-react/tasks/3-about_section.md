@@ -83,7 +83,7 @@ about-section
 
 ---
 
-- Use Tailwind CSS to style the component.
+- Use **Tailwind CSS** to style the component.
 
 ---
 

@@ -24,6 +24,7 @@ You will have the opportunity to use AI later in the curriculum when adapting th
 
 - [React documentation](https://react.dev/learn)
 - [React Foundations](https://nextjs.org/learn/react-foundations)
+- [Apprendre React (FR)](https://grafikart.fr/formations/react)
 - [Vite documentation](https://vite.dev/guide/)
 - [Tailwind CSS documentation](https://tailwindcss.com/docs/installation/using-vite)
 - [Lucide React documentation](https://lucide.dev/guide/react/)

@@ -98,6 +98,7 @@ export default features;
 
 - Use **semantic HTML**.
   - The section must use a `section` element.
+  - Each feature card must use an `article` element.
 
 ---
 
@@ -110,7 +111,7 @@ features-section
 
 ---
 
-- Use Tailwind CSS to style the component.
+- Use **Tailwind CSS** to style the component.
 
 ---
 

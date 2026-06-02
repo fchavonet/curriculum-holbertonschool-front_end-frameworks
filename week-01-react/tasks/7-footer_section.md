@@ -19,16 +19,16 @@ The goal of this task is to **complete the page layout** with a structured foote
 ---
 
 - Import the required icon from `lucide-react`.
-    - The brand/logo area must use a `Lucide React` icon.
+    - The brand/logo area must use a **Lucide React** icon.
 
 ---
 
 - Add social media links.
     - The social media links must include:
-        - Instagram.
-        - TikTok.
-        - X.
-        - YouTube.
+        - **Instagram**.
+        - **TikTok**.
+        - **X**.
+        - **YouTube**.
     - Each social media link must:
         - Open in a new tab.
         - Use the appropriate security attributes.
@@ -56,7 +56,7 @@ The goal of this task is to **complete the page layout** with a structured foote
 
 ---
 
-- Display the current year dynamically.
+- Display the current year **dynamically**.
     - The year must be generated using JavaScript.
     - The year must not be hardcoded.
 

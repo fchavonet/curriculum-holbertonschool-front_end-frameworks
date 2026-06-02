@@ -28,10 +28,10 @@ The goal of this task is to build an interactive contact section using **React s
 ---
 
 - The contact form must contain:
-    - A full name field.
-    - An email field.
-    - A message field.
-    - A submit button.
+    - A full **name** field.
+    - An **email** field.
+    - A **message** field.
+    - A **submit** button.
 
 ---
 
@@ -52,9 +52,9 @@ The goal of this task is to build an interactive contact section using **React s
 
 - Add basic frontend validation.
     - The form must only be valid when:
-        - The full name contains at least 2 characters.
-        - The email contains `@` and `.`.
-        - The message contains at least 10 characters.
+        - The full name contains at least **2 characters**.
+        - The email contains **`@` and `.`**.
+        - The message contains at least **10 characters**.
 
 _This validation is intentionally basic for learning purposes. In a real-world project, user input must also be validated and sanitized on the backend to prevent security issues such as invalid data, spam, injection attacks or malicious payloads._
 
@@ -62,8 +62,8 @@ _This validation is intentionally basic for learning purposes. In a real-world p
 
 - Use dynamic styling for form fields.
     - When a field is focused:
-        - Invalid fields must use a red border.
-        - Valid fields must use a violet border.
+        - Invalid fields must use a **red border**.
+        - Valid fields must use a **violet border**.
 
 <table align="center">
     <tr>
@@ -128,7 +128,7 @@ _This validation is intentionally basic for learning purposes. In a real-world p
 
 ---
 
-- Display dynamic feedback below the submit button.
+- Display **dynamic feedback** below the submit button.
     - The feedback message must:
         - Display a default instruction message.
         - Change while the message is being sent.
@@ -187,7 +187,7 @@ contact-section
 
 ---
 
-- Use Tailwind CSS to style the component.
+- Use **Tailwind** CSS to style the component.
 
 ---
 
