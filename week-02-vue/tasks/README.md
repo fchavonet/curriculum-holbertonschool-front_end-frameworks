@@ -2,6 +2,8 @@
 
 ## Description
 
+![React vs Vue.js mème](../assets/images/memes/meme-react_vs_vue.webp)
+
 ---
 
 This project introduces **Vue.js** through a practical framework migration exercise.
