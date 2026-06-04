@@ -73,6 +73,6 @@ _This temporary homepage is only used to verify that the project is correctly co
 **Repo:**
 
 - GitHub repository: `holbertonschool-agentic_ai`.
-- Directory: front_end-frameworks/vue/```
+- Directory: `front_end-frameworks/vue/`
 - File: `src/global.css`, `src/App.vue`, `src/main.js`, `eslint.config.js`, `index.html`, `package.json`, `vite.config.js`, `.gitignore`, `README.md`.
 - Code language: `Vue.js`, `JavaScript`.
