@@ -69,64 +69,26 @@ The final **Vue.js** version must remain **visually and functionally equivalent*
 
 ---
 
-The final project should follow a clean and maintainable folder structure.
+## Requirements:
 
-Example:
-
-```text
-project/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── ui/
-│   │   ├── cards/
-│   │   ├── layout/
-│   │   └── sections/
-│   ├── data/
-│   ├── services/
-│   ├── global.css
-│   ├── App.vue
-│   └── main.js
-├── eslint.config.js
-├── index.html
-├── package-lock.json
-├── package.json
-├── vite.config.js
-├── .gitignore
-└── README.md
-```
-
----
-
-Requirements:
-
-* The application must run locally.
-* The project must build successfully.
-* ESLint checks must pass.
-* The project must use Vue.js components.
-* The project must use Vue Single File Components (`.vue` files).
-* The project must use `lucide-vue-next` for Lucide icons.
-* The project must preserve the same content as the React version.
-* The project must preserve the same responsive behavior as the React version.
-* The project must preserve the same interactive behavior as the React version.
-* The project must include all original sections:
-
-  * Header.
-  * Hero.
-  * About.
-  * Features.
-  * Insights.
-  * Contact.
-  * Footer.
-* Navigation links must work correctly.
-* Dynamic content must be rendered correctly.
-* The contact form must behave correctly.
-* The project must follow a clean and maintainable folder structure.
-* The project must not introduce a new design.
-* The project must not remove existing sections.
-* The project must not use inline styles.
-* The visual result must match the React version as closely as possible.
+- The application must **run locally**.
+- The project must **build successfully**.
+- ESLint checks must pass.
+- The project must use **Vue.js** components.
+- The project must use **Vue Single File Components** (`.vue` files).
+- The project must use `lucide-vue-next` for icons.
+- The project must preserve the **same content as the React version**.
+- The project must preserve the **same responsive behavior as the React version**.
+- The project must preserve the **same interactive behavior as the React version**.
+- The project must include all original sections.
+- Navigation links must work correctly.
+- Dynamic content must be rendered correctly.
+- The contact form must behave correctly.
+- The project must follow a **clean and maintainable folder structure**.
+- The project must **not** introduce a new design.
+- The project must **not** remove existing sections.
+- The project must **not** use inline styles.
+- The visual result **must match the React version as closely as possible**.
 
 **Repo:**
 - GitHub repository: `holbertonschool-agentic_ai`.
