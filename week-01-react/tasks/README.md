@@ -2,6 +2,10 @@
 
 ## Description
 
+![React vs Vue.js mème](../assets/images/memes/meme-react.webp)
+
+---
+
 This project introduces modern frontend development using **React** and the **JavaScript** ecosystem.
 
 You will progressively build a **responsive landing page** inspired by modern interfaces while learning the fundamentals of **component-based** frontend architecture.
