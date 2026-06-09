@@ -163,12 +163,12 @@ curriculum-holbertonschool-front_end-frameworks/
 │   ├── tasks/
 │   └── project/
 │
-├── week-02-vue/
+├── week-02.a-vue/
 │   ├── README.md
 │   ├── tasks/
 │   └── project/
 │
-└── week-02-svelte/
+└── week-02.b-svelte/
     ├── README.md
     ├── tasks/
     └── project/
