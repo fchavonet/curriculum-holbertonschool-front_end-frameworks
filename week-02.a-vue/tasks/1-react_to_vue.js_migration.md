@@ -91,6 +91,7 @@ The final **Vue.js** version must remain **visually and functionally equivalent*
 - The visual result **must match the React version as closely as possible**.
 
 **Repo:**
+
 - GitHub repository: `holbertonschool-agentic_ai`.
 - Directory: `front_end-frameworks/vue/`.
 - File: `src/App.vue`, `src/main.js`, `src/global.css`, `src/components/`, `src/data/`, `src/services/`, `package.json`, `vite.config.js`, `eslint.config.js`.

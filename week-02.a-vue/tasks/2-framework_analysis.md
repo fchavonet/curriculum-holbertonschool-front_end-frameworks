@@ -93,11 +93,12 @@ Whenever possible, **use examples** taken directly from your own **React** and *
 - Any **AI-generated content must be reviewed**, corrected and adapted by the student.
 - The final document must be **written in a professional and technical style**.
 - Emojis must not be included in the final document.
-- AI-generated formatting artifacts (such as em dashes, decorative separators or - similar stylistic markers) must be removed when not relevant.
+- AI-generated formatting artifacts (such as em dashes, decorative separators or similar stylistic markers) must be removed when not relevant.
 - Students are expected to **take ownership of the generated content** and **adapt it** to their own observations and conclusions.
 - Similarity checks may be performed by the staff to identify excessively similar submissions.
 
 **Repo:**
+
 - GitHub repository: `holbertonschool-agentic_ai`.
 - Directory: `front_end-frameworks/vue/`.
 - File: `comparison.md`.
