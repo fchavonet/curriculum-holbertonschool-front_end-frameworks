@@ -21,6 +21,7 @@ By comparing the **React** and **Vue.js** versions of the application, you will 
 - Lifecycle management.
 - Templating systems.
 - Development workflows.
+- AI-assisted framework migration.
 
 Unlike the previous project, **AI-assisted development tools are allowed and encouraged**.
 
@@ -30,7 +31,7 @@ At the end of the project, you should be able to identify and explain the major 
 
 Throughout the project, particular attention should be given to understanding the generated Vue.js code and comparing it with the original React implementation.
 
-A **final assessment** (quizz) will evaluate your understanding of **Vue.js** concepts, framework architecture, and the similarities and differences between **React** and **Vue.js**.
+A **final assessment** (quiz) will evaluate your understanding of **Vue.js** concepts, framework architecture, and the similarities and differences between **React** and **Vue.js**.
 
 ---
 
@@ -118,5 +119,3 @@ At the end of this project, you are expected to be able to explain to anyone, **
 - The final application must remain **visually and functionally equivalent** to the React version.
 - Your project must run locally.
 - Your project must build successfully.
-
----
