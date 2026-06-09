@@ -60,7 +60,7 @@ _This temporary homepage is only used to verify that the project is correctly co
 
 ---
 
-### Requirements
+## Requirements
 
 - Remove unused default assets.
 - The project must contain a `src/global.css` file.
