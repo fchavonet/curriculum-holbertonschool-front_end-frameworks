@@ -57,7 +57,7 @@ The goal of this task is to create the **first reusable React component** of the
 
 ---
 
-## Requirements:
+## Requirements
 
 - The component must be created in `src/components/Header.jsx`.
 - The component must be imported in `src/App.jsx`.

@@ -80,7 +80,7 @@ Whenever possible, **use examples** taken directly from your own **React** and *
 
 ---
 
-## Requirements:
+## Requirements
 
 - The project must contain a `comparison.md` file.
 - The file must be written in **Markdown**.

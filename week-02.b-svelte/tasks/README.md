@@ -131,18 +131,18 @@ At the end of this project, you are expected to be able to explain to anyone, **
 
 ## Requirements
 
-* **AI-assisted development tools are allowed**.
-* A `README.md` file is mandatory at the root of the repository.
-* Your project must use **Svelte** with **Vite**.
-* Your project must use **JavaScript**.
-* Your project must use **Tailwind CSS**.
-* Your project must use **Lucide Svelte**.
-* **No external CSS framework** allowed except Tailwind CSS.
-* All files should **end with a new line**.
-* **No inline styles** allowed.
-* The final application must remain **visually and functionally equivalent** to the React and Vue.js versions.
-* Your project must run locally.
-* Your project must build successfully.
+- **AI-assisted development tools are allowed**.
+- A `README.md` file is mandatory at the root of the repository.
+- Your project must use **Svelte** with **Vite**.
+- Your project must use **JavaScript**.
+- Your project must use **Tailwind CSS**.
+- Your project must use **Lucide Svelte**.
+- **No external CSS framework** allowed except Tailwind CSS.
+- All files should **end with a new line**.
+- **No inline styles** allowed.
+- The final application must remain **visually and functionally equivalent** to the React and Vue.js versions.
+- Your project must run locally.
+- Your project must build successfully.
 
 ---
 
@@ -152,9 +152,9 @@ At the end of this project, you are expected to be able to explain to anyone, **
 
 This project is part of a progressive frontend framework sequence:
 
-* The **React** project introduces component-based frontend development without AI-assisted code generation.
-* The **Vue.js** project introduces a first AI-assisted framework migration.
-* The **Svelte** project reinforces this migration workflow with a third implementation of the same interface.
+- The **React** project introduces component-based frontend development without AI-assisted code generation.
+- The **Vue.js** project introduces a first AI-assisted framework migration.
+- The **Svelte** project reinforces this migration workflow with a third implementation of the same interface.
 
 The objective is to help you understand that modern frontend frameworks often share the same core ideas, even when their syntax and tooling are different.
 

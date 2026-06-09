@@ -69,7 +69,7 @@ The final **Vue.js** version must remain **visually and functionally equivalent*
 
 ---
 
-## Requirements:
+## Requirements
 
 - The application must **run locally**.
 - The project must **build successfully**.
