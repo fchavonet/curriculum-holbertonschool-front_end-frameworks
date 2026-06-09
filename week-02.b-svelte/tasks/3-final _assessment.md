@@ -8,9 +8,9 @@ The purpose of this assessment is to evaluate your understanding of **Svelte** a
 
 The questions are **based on the concepts explored throughout the project**, the migration process, and the framework analysis performed in the previous task.
 
-This is the last quiz of this frontend framework sequence, so do not panic.
-<br>
-This week was intentionally more focused on analysis, understanding and comparison than on writing large amounts of code. This may feel different from a traditional development project, but being able to read unfamiliar code, compare frameworks, review AI-assisted migrations and adapt quickly to new ecosystems is becoming an essential skill for modern frontend developers.
+This is the last quiz of this frontend framework sequence, **so do not panic**.
+
+This week was intentionally more focused on analysis, understanding and comparison than on writing large amounts of code. This **may feel different from a traditional development project**, but being able to read unfamiliar code, compare frameworks, review AI-assisted migrations and adapt quickly to new ecosystems is **becoming an essential skill** for modern frontend developers.
 
 ---
 
