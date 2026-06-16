@@ -10,7 +10,7 @@ The goal of this curriculum is to help students understand how frontend applicat
 
 Throughout the project, students will progressively build and migrate the same application using multiple frontend technologies. This approach allows them to compare syntax, reactivity models, component architecture, state management and development workflows in a practical and structured way.
 
-### Curriculum Structure
+#### Curriculum Structure
 
 The curriculum is organized into two main weeks:
 
@@ -26,7 +26,7 @@ Students will then migrate the same application to Vue.js and Svelte.
 <br>
 The objective is to preserve the same features and user experience while understanding how each framework approaches components, reactivity, data binding and project organization.
 
-### Learning Objectives
+#### Learning Objectives
 
 At the end of this curriculum, students should be able to:
 
