@@ -97,10 +97,10 @@ This week was intentionally more focused on analysis, understanding and comparis
 
 11. In Svelte 5, which feature can be used to receive component props?
 
-`$props()`. ✅
-`defineProps()`.
-`useProps()`.
-`setProps()`.
+- `$props()`. ✅
+- `defineProps()`.
+- `useProps()`.
+- `setProps()`.
 
 12. Which statement best describes Svelte reactivity?
 
@@ -111,10 +111,10 @@ This week was intentionally more focused on analysis, understanding and comparis
 
 13. In Svelte 5, which feature can be used to declare reactive local state?
 
-`$state()`. ✅
-`useState()`.
-`ref()`.
-`createStoreOnly()`.
+- `$state()`. ✅
+- `useState()`.
+- `ref()`.
+- `createStoreOnly()`.
 
 14. Which comparison is correct?
 
