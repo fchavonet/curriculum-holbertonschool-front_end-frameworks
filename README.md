@@ -54,7 +54,6 @@ At the end of this curriculum, students should be able to:
 
 ## Thanks
 
-- A big thank you to all my Holberton School peers for their help and support throughout these projects.
 - Special thanks to the students who will explore, test and improve this curriculum through their work and feedback.
 
 ## Author(s)
