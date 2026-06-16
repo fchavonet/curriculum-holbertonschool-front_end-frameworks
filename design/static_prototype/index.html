@@ -424,34 +424,41 @@
                 <form id="contact-form" class="w-full max-w-2xl mt-8 p-8 flex flex-col justify-center items-center gap-8 text-start rounded-3xl border border-slate-800 bg-slate-950/80 backdrop-blur shadow-2xl shadow-slate-950/40">
                     <!-- NAME -->
                     <div class="w-full flex flex-col gap-2">
-                        <label class="ms-4 text-sm font-semibold" for="name">
+                        <label class="ms-2 flex flex-row justify-start items-center gap-2 text-sm font-semibold" for="name">
+                            <i class="w-4 h-4 text-violet-500" data-lucide="user"></i>
                             Full name
                         </label>
 
-                        <input id="name" class="px-4 py-2 text-sm text-slate-50 placeholder:text-slate-500 rounded-md border border-slate-800 focus:outline-none focus:border-violet-500 bg-black shadow-xl shadow-slate-950/40 transition" name="name" type="text" placeholder="Your full name..." required>
+                        <input id="name" class="px-4 py-2 text-sm text-slate-50 placeholder:text-slate-500 rounded-md border border-slate-800 focus:outline-none bg-black shadow-xl shadow-slate-950/40 transition focus:border-red-500" name="name" type="text" placeholder="Your full name..." autocomplete="off" required>
                     </div>
 
                     <!-- EMAIL -->
                     <div class="w-full flex flex-col gap-2">
-                        <label class="ms-4 text-sm font-semibold" for="email">
+                        <label class="ms-2 flex flex-row justify-start items-center gap-2 text-sm font-semibold" for="email">
+                            <i class="w-4 h-4 text-violet-500" data-lucide="at-sign"></i>
                             Email
                         </label>
 
-                        <input id="email" class="px-4 py-2 text-sm text-slate-50 placeholder:text-slate-500 rounded-md border border-slate-800 focus:outline-none focus:border-violet-500 bg-black shadow-xl shadow-slate-950/40 transition" name="email" type="email" placeholder="you@example.com" required>
+                        <input id="email" class="px-4 py-2 text-sm text-slate-50 placeholder:text-slate-500 rounded-md border border-slate-800 focus:outline-none bg-black shadow-xl shadow-slate-950/40 transition focus:border-red-500" name="email" type="email" placeholder="you@example.com" autocomplete="off" required>
                     </div>
 
                     <!-- MESSAGE -->
                     <div class="w-full flex flex-col gap-2">
-                        <label class="ms-4 text-sm font-semibold" for="message">
+                        <label class="ms-2 flex flex-row justify-start items-center gap-2 text-sm font-semibold" for="message">
+                            <i class="w-4 h-4 text-violet-500" data-lucide="mail"></i>
                             Message
                         </label>
 
-                        <textarea id="message" class="min-h-32 px-4 py-2 text-sm text-slate-50 placeholder:text-slate-500 rounded-md border border-slate-800 focus:outline-none focus:border-violet-500 bg-black shadow-xl shadow-slate-950/40 transition resize-none" name="message" placeholder="Tell us about your project or learning goals!" required></textarea>
+                        <textarea id="message" class="min-h-32 px-4 py-2 text-sm text-slate-50 placeholder:text-slate-500 rounded-md border border-slate-800 focus:outline-none bg-black shadow-xl shadow-slate-950/40 transition focus:border-red-500 resize-none" name="message" placeholder="Tell us about your project or learning goals!" autocomplete="off" required></textarea>
                     </div>
 
-                    <button class="w-full px-4 py-2 font-semibold text-slate-50 rounded-md bg-violet-500 hover:bg-violet-600 shadow-lg shadow-violet-500/40 cursor-pointer" type="submit">
+                    <button id="contact-submit" class="w-full px-4 py-2 font-semibold text-slate-50 rounded-md bg-violet-500 opacity-60 shadow-lg shadow-violet-500/40 transition cursor-not-allowed" type="submit" disabled>
                         Send message
                     </button>
+
+                    <p id="contact-feedback" class="min-h-5 text-sm text-slate-500 transition">
+                        Please fill all required fields.
+                    </p>
                 </form>
             </div>
         </section>
