@@ -112,7 +112,7 @@ git clone https://github.com/fchavonet/curriculum-holbertonschool-front_end-fram
 
 1. Complete each task in order until the end of the project.
 
-2. Once the tasks are completed, the result can be compared with the demonstration project available in the `project` folder or tested online by clicking [here](https://fchavonet.github.io/curriculum-holbertonschool-front_end-frameworks/)
+2. Once the tasks are completed, the result can be compared with the demonstration project available in the `project` folder or tested online by clicking [here](https://fchavonet.github.io/curriculum-holbertonschool-front_end-frameworks/).
 
 ## What's Next?
 
