@@ -10,23 +10,23 @@ The goal of this curriculum is to help students understand how frontend applicat
 
 Throughout the project, students will progressively build and migrate the same application using multiple frontend technologies. This approach allows them to compare syntax, reactivity models, component architecture, state management and development workflows in a practical and structured way.
 
-#### Curriculum Structure
+### Curriculum Structure
 
 The curriculum is organized into two main weeks:
 
-- Week 1 - React
+- Week 1 - [React](./week-01-react/)
 
 Students will start by creating the application with React.
 <br>
 They will learn how to initialize a frontend project, organize components, manage props and state, handle events, render dynamic content and structure a modern frontend interface.
 
-- Week 2 - Vue.js and Svelte
+- Week 2 - [Vue.js](./week-02.a-vue/) and [Svelte](./week-02.b-svelte/)
 
 Students will then migrate the same application to Vue.js and Svelte.
 <br>
 The objective is to preserve the same features and user experience while understanding how each framework approaches components, reactivity, data binding and project organization.
 
-#### Learning Objectives
+### Learning Objectives
 
 At the end of this curriculum, students should be able to:
 
